@@ -52,7 +52,7 @@ cd smartui-java-testng-sample
 You can also run the command below to check for outdated dependencies.
 
 ```bash
-mvn versions:display-dependency-updates
+mvn clean compile
 ```
 
 ### Setting Up Your Authentication
@@ -64,6 +64,7 @@ Make sure you have your LambdaTest credentials with you to run test automation s
 - For **Linux/macOS**:
 
   ```bash
+  export PROJECT_TOKEN="xxxxx#java-sdk-testing"
   export LT_USERNAME="YOUR_USERNAME"
   export LT_ACCESS_KEY="YOUR ACCESS KEY"
   ```
@@ -71,73 +72,56 @@ Make sure you have your LambdaTest credentials with you to run test automation s
   - For **Windows**:
 
   ```bash
+  set PROJECT_TOKEN="xxxxx#java-sdk-testing"
   set LT_USERNAME="YOUR_USERNAME"
   set LT_ACCESS_KEY="YOUR ACCESS KEY"
   ```
 
-## Run Your First Test
+### Execute SmartUI Java Tests using smartui-cli
 
-> **Test Scenario**: The sample [TestNGTodo1.java](https://github.com/LambdaTest/Java-TestNG-Selenium/blob/master/src/test/java/com/lambdatest/TestNGTodo1.java) tests a sample to-do list app by marking couple items as done, adding a new item to the list and finally displaying the count of pending items as output.
 
-### Configuring Your Test Capabilities
-
-**Step 3:** In the test script, you need to update your test capabilities. In this code, we are passing browser, browser version, and operating system information, along with LambdaTest Selenium grid capabilities via capabilities object. The capabilities object in the above code are defined as:
-
-```java
-DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("browserName", "chrome");
-        capabilities.setCapability("version", "latest");
-        capabilities.setCapability("platform", "win10"); // If this cap isn't specified, it will just get the any available one
-        capabilities.setCapability("build", "LambdaTestSampleApp");
-        capabilities.setCapability("name", "LambdaTestJavaSample");
-        capabilities.setCapability("smartUI.project", "testng-smartui-project");
-
+#### Install the smartui-cli dependencies
+```bash
+npm i @lambdatest/smartui-cli
 ```
 
-You can generate capabilities for your test requirements with the help of our inbuilt [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=Java-TestNG-Selenium).
+#### Create and Configure SmartUI Config
+```bash
+npx smartui config:create smartui-web.json
+```
 
-### Executing The SmartUI Test
-
-**Step 4:** The tests can be executed in the terminal using the following command.
-
+#### Use Local Hub
 ```bash
 npx smartui exec -- mvn test -D suite=sdk-local.xml
+```
+
+#### Use Lambdatest Cloud Hub
+```bash
 npx smartui exec -- mvn test -D suite=sdk-cloud.xml
+```
+
+Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on SmartUI dashboard.
+
+### Executing SmartUI Test on Lambdatest Hub without smartui-cli
+
+The tests can be executed in the terminal using the following command.
+
+```bash
+mvn test -D suite=smartui.xml
 ```
 
 Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on LambdaTest automation dashboard.
 
 ## Run Parallel SmartUI Tests Using TestNG
 
-Here is an example `xml` file which would help you to run a single test on various browsers at the same time, you would also need to generate a testcase which makes use of **TestNG** framework parameters (`org.testng.annotations.Parameters`).
-
-```xml title="smartui-parallel.xml"
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="20" parallel="tests" name="Suite">
-  <test thread-count="20" parallel="classes" name="Test">
-    <classes>
-      <class name="com.lambdatest.TestNGSmartUIChrome"/>
-      <class name="com.lambdatest.TestNGSmartUIFirefox"/>
-    </classes>
-  </test>
-</suite>
-```
-
 ### Executing Parallel Tests Using TestNG
 
 To run parallel tests using **TestNG**, we would have to execute the below commands in the terminal:
+```bash
+mvn test -D suite=smartui-parallel.xml
+```
 
-- For the above example code
-  ```bash
-  mvn test
-  ```
-- For the cloned Java-TestNG-Selenium repo used to run our first sample test
-  ```bash
-  mvn test -D suite=smartui-parallel.xml
-  ```
-
-### Executing SmartUI Real Device Tests
+### Execute SmartUI Real Device Tests
 
 The tests can be executed in the terminal using the following command.
 
