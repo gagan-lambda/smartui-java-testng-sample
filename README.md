@@ -101,7 +101,8 @@ You can generate capabilities for your test requirements with the help of our in
 **Step 4:** The tests can be executed in the terminal using the following command.
 
 ```bash
-mvn test -D suite=smartui.xml
+npx smartui exec -- mvn test -D suite=sdk-local.xml
+npx smartui exec -- mvn test -D suite=sdk-cloud.xml
 ```
 
 Your test results would be displayed on the test console (or command-line interface if you are using terminal/cmd) and on LambdaTest automation dashboard.

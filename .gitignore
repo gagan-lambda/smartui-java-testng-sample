@@ -3,3 +3,4 @@
 .project
 .settings
 .theia
+node_modules/*
