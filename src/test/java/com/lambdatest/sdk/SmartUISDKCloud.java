@@ -1,4 +1,4 @@
-package com.lambdatest;
+package com.lambdatest.sdk;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -13,14 +13,13 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import io.github.lambdatest.*;
+import io.github.lambdatest.SmartUISnapshot;
 
-public class JavaSmartUISDK {
+public class SmartUISDKCloud {
 
     private RemoteWebDriver driver;
     private String Status = "failed";
     private String githubURL = System.getenv("GITHUB_URL");
-
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
@@ -34,9 +33,6 @@ public class JavaSmartUISDK {
         caps.setCapability("version", "latest");
         caps.setCapability("build", "TestNG With Java");
         caps.setCapability("name", m.getName() + " - " + this.getClass().getName());
-        caps.setCapability("plugin", "git-testng");
-        // caps.setCapability("smartUI.project","testng-smartui-project");
-        caps.setCapability("selenium_version", "4.8.0");
         
         if (githubURL != null) {
             Map<String, String> github = new HashMap<String, String>();
@@ -50,31 +46,16 @@ public class JavaSmartUISDK {
 
     @Test
     public void basicTest() throws Exception {
-        String spanText;
         System.out.println("Loading Url");
-
-
-        driver.get("https://in.pinterest.com/");
-    
-        SmartUISnapshot.smartuiSnapshot(driver, "homepage");
-
-        Thread.sleep(5000);
-
-        Thread.sleep(1000);
-
-       driver.get("https://www.lambdatest.com/pricing");
-        Thread.sleep(5000);
-
-  
-        Thread.sleep(1000);
-
         driver.get("https://www.lambdatest.com/support/docs/");
-        Thread.sleep(5000);
         Thread.sleep(1000);
-
-
-        System.out.println("TestFinished");
-
+        SmartUISnapshot.smartuiSnapshot(driver, "docs");
+        Thread.sleep(5000);
+        driver.get("https://www.lambdatest.com");
+        Thread.sleep(1000);
+        SmartUISnapshot.smartuiSnapshot(driver, "homepage");
+        Thread.sleep(1000);
+        System.out.println("Test Finished");
     }
 
     @AfterMethod
