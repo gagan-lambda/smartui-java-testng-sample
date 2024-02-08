@@ -9,6 +9,8 @@ env:
   LT_USERNAME: ${{ secrets.LT_USERNAME }}
   LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
   PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+  LT_SDK_DEBUG: true
+  SMARTUI_DEBUG: true
 
 jobs:
   smartui-java-sdk:
@@ -21,12 +23,10 @@ jobs:
       - name: Install Dependencies and clean directory
         run: |
           npm i @lambdatest/smartui-cli
-          ls -la
-          mvn clean compile
 
       - name: Execute java wrapper
         run: |
           npx smartui --version
-          ls -la
           npx smartui config:create smartui-web.json
+          mvn -ntp ... ....
           npx smartui --config smartui-web.json exec -- mvn test -D suite=sdk-cloud.xml
