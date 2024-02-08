@@ -23,10 +23,12 @@ jobs:
       - name: Install Dependencies and clean directory
         run: |
           npm i @lambdatest/smartui-cli
+          mvn -q
+          mvn -Dmaven.wagon.http.ssl.insecure=true clean install
+
 
       - name: Execute java wrapper
         run: |
           npx smartui --version
           npx smartui config:create smartui-web.json
-          mvn -ntp ... ....
           npx smartui --config smartui-web.json exec -- mvn test -D suite=sdk-cloud.xml
