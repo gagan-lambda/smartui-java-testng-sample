@@ -16,6 +16,9 @@ jobs:
     name: Execute java sdk build
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
       - name: Install Dependencies and clean directory
         run: |
           npm i @lambdatest/smartui-cli@2.0.4
