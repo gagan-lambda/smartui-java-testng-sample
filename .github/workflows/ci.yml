@@ -30,4 +30,4 @@ jobs:
         run: |
           npx smartui --version
           npx smartui config:create smartui-web.json
-          npx smartui --config smartui-web.json exec -- mvn test -D suite=sdk-cloud.xml
+          npx smartui --config smartui-web.json exec -- mvn --quiet test -D suite=sdk-cloud.xml
