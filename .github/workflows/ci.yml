@@ -27,7 +27,7 @@ jobs:
 
       - name: Execute java wrapper
         run: |
-          smartui --version
+          npx smartui --version
           ls -la
           npx smartui config:create smartui-web.json
           npx smartui exec -- mvn test -D suite=sdk-cloud.xml --config smartui-web.json
