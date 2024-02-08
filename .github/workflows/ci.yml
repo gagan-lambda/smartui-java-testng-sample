@@ -23,8 +23,6 @@ jobs:
       - name: Install Dependencies and clean directory
         run: |
           npm i @lambdatest/smartui-cli
-          mvn -q
-          mvn -Dmaven.wagon.http.ssl.insecure=true clean install
 
 
       - name: Execute java wrapper
