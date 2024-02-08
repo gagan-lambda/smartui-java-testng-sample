@@ -30,4 +30,4 @@ jobs:
           npx smartui --version
           ls -la
           npx smartui config:create smartui-web.json
-          npx smartui exec -- mvn test -D suite=sdk-cloud.xml --config smartui-web.json
+          npx smartui --config smartui-web.json exec -- mvn test -D suite=sdk-cloud.xml
