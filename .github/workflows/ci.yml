@@ -23,6 +23,7 @@ jobs:
       - name: Install Dependencies and clean directory
         run: |
           npm i @lambdatest/smartui-cli
+          mvn --quiet clean compile
 
 
       - name: Execute java wrapper
