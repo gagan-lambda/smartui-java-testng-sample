@@ -1,0 +1,29 @@
+name: Java test-NG Wrapper CI
+on:
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+env:
+  LT_USERNAME: ${{ secrets.LT_USERNAME }}
+  LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
+  PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+
+jobs:
+  smartui-java-sdk:
+    name: Execute java sdk build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dependencies and clean directory
+        run: |
+          npm i @lambdatest/smartui-cli@2.0.4
+          mvn clean compile
+
+      - name: Execute java wrapper
+        run: |
+          smartui --version
+          ls -la
+          npx smartui config:create smartui-web.json
+          npx smartui exec -- mvn test -D suite=sdk-cloud.xml --config smartui-web.json
