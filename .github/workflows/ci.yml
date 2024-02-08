@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Dependencies and clean directory
         run: |
-          npm i @lambdatest/smartui-cli@2.0.4
+          npm i @lambdatest/smartui-cli
           ls -la
           mvn clean compile
 
