@@ -17,23 +17,23 @@ import org.testng.annotations.Test;
 import io.github.lambdatest.SmartUISnapshot;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class SmartUISDKCloud {
 
     private RemoteWebDriver driver;
     private String Status = "failed";
-    private String projectToken = "2838#cad0c854-kdjd-4c08-80d7-3146d83e0cf0#veeva-sdk"; // Update your own project token
+    //private String projectToken = ""; // Update your own project token
     private String githubURL = System.getenv("GITHUB_URL");
     private String buildId = System.getenv("SMARTUI_BUILD_ID");
-    private String buildName = System.getProperty("SMARTUI_BUILD_NAME");
+   // private String buildName = System.getenv("SMARTUI_BUILD_NAME");
     private String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
     private String authkey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-      //  String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
-        //String authkey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
         String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -61,13 +61,15 @@ public class SmartUISDKCloud {
         Thread.sleep(1000);
         SmartUISnapshot.smartuiSnapshot(driver, "Flipkart");
         Thread.sleep(30000);
-        System.out.println("Build ID is : " + buildId);
+        System.out.println("Build ID is : " + buildId); // Getting this value from Line 30
 
     }
 
     @AfterMethod
     public void tearDown() {
-String apiUrl = "https://api.lambdatest.com/automation/smart-ui/screenshot/build/status";
+        String projectName = "veeva-sdk";
+        //String apiUrl = "https://api.lambdatest.com/automation/smart-ui/screenshot/build/status";
+        String apiUrl = "https://api.lambdatest.com/smartui/2.0/build/screenshots"; // New Updated API
 
         String encodedAuth = Base64.getEncoder().encodeToString((username + ":" + authkey).getBytes());
 
@@ -75,8 +77,11 @@ String apiUrl = "https://api.lambdatest.com/automation/smart-ui/screenshot/build
                 .given()
                     .header("Authorization", "Basic " + encodedAuth)
                     .header("Accept", "application/json")
-                    .queryParam("projectToken", projectToken)
-                    .queryParam("buildId", buildId)
+                    .queryParam("project_name", projectName)
+                    .queryParam("build_id", buildId)
+                    .queryParam("baseline", false)
+                   // .queryParam("projectToken", projectToken)
+    
 
                 .when()
                     .get(apiUrl)
@@ -84,15 +89,28 @@ String apiUrl = "https://api.lambdatest.com/automation/smart-ui/screenshot/build
                     .statusCode(200)
                     .extract()
                     .response();
+                    
+       
 
         JSONObject json = new JSONObject(response.asString());
-        String buildStatus = json.getJSONObject("data").getString("buildStatus");
+        System.out.println("Respnse for API is : " + json);
+        JSONArray screenshots = json.getJSONArray("screenshots");
 
-        System.out.println("Build status is: " + buildStatus);
+        boolean hasRejection = false;
 
-         Status = buildStatus.equalsIgnoreCase("Rejected") ? "failed" : "passed";
+        for (int i = 0; i < screenshots.length(); i++) {
+            JSONObject screenshot = screenshots.getJSONObject(i);
+            String status = screenshot.getString("status");
 
-        // Send status back to LambdaTest
+            if ("rejected".equalsIgnoreCase(status)) {
+                System.out.println("Rejected screenshot found: " + screenshot.getString("screenshot_name"));
+                hasRejection = true;
+                break; // Optional: stop after first rejection
+            }
+        }
+
+        // Set Test status
+        Status = hasRejection ? "failed" : "passed";
         ((JavascriptExecutor) driver).executeScript("lambda-status=" + Status);
         driver.quit();
     }
