@@ -3,7 +3,7 @@
   "name": "smartui-java-testng-sample",
   "version": "1.0.0",
   "scripts": {
-    "smartui:test": "set PROJECT_TOKEN=1350616#01JZ0Y224C8GP78ZCXBR0BC8MR#veeva-token && npx smartui --config smartui.json exec -- mvn test -D suite=sdk-cloud.xml"
+    "smartui:test": "set PROJECT_TOKEN=13502116#01JZ0Y224C8Gw8ZCXBR0BC8MR#veeva-token && npx smartui --config smartui.json exec -- mvn test -D suite=sdk-cloud.xml"
   },
 
   "dependencies": {
