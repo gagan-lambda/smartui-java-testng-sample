@@ -4,7 +4,10 @@ import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
+import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -17,7 +20,6 @@ import org.testng.annotations.Test;
 import io.github.lambdatest.SmartUISnapshot;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -34,6 +36,7 @@ public class SmartUISDKCloud {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
+        System.setProperty("PROJECT_TOKEN", "1350616#01JZ0Y224C8GP78ZCXBR0BC8MR#veeva-token");
         String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -41,6 +44,8 @@ public class SmartUISDKCloud {
         caps.setCapability("browserName", "chrome");
         caps.setCapability("version", "latest");
         caps.setCapability("build", "TestNG With Java");
+     //   caps.setCapability("smartUI.project", "veeva-token");
+       // caps.setCapability("smartUI.build", "ve");
        // caps.setCapability("smartUI.baseline", true);
         caps.setCapability("name", m.getName() + " - " + this.getClass().getName());
         
@@ -57,17 +62,20 @@ public class SmartUISDKCloud {
     @Test
     public void basicTest() throws Exception {
         System.out.println("Loading Url");
+       // driver.get("https://amazon.com");
+      // SmartUISnapshot.smartuiSnapshot(driver, "Flipkart");
         driver.get("https://flipkart.com");
         Thread.sleep(1000);
-        SmartUISnapshot.smartuiSnapshot(driver, "Flipkart");
+        SmartUISnapshot.smartuiSnapshot(driver, "Flipkart1");
         Thread.sleep(30000);
-        System.out.println("Build ID is : " + buildId); // Getting this value from Line 30
-
+         
+         System.out.println("Build ID is : " + buildId);// Getting this value from Line 30
     }
 
     @AfterMethod
     public void tearDown() {
-        String projectName = "veeva-sdk";
+        
+       String projectName = "veeva-token";
         //String apiUrl = "https://api.lambdatest.com/automation/smart-ui/screenshot/build/status";
         String apiUrl = "https://api.lambdatest.com/smartui/2.0/build/screenshots"; // New Updated API
 

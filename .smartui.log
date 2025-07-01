@@ -1,5 +1,5 @@
 [:debug] http request: GET /packageinfo
-[:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:19 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d0fdc3f6fd80f-BOM"},"body":{"data":{"latestVersion":"4.1.15","deprecated":false,"additionalDescription":"If you face any problems executing tests, upgrade your node version to v20.3 or above","additionalDescriptionLatestVersion":"If you face any problems executing tests, upgrade your node version to v20.3 or above"}}}
+[:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:27 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d77b3c1859d6-DEL"},"body":{"data":{"latestVersion":"4.1.15","deprecated":false,"additionalDescription":"If you face any problems executing tests, upgrade your node version to v20.3 or above","additionalDescriptionLatestVersion":"If you face any problems executing tests, upgrade your node version to v20.3 or above"}}}
 LambdaTest SmartUI CLI v4.1.15
 [33mIf you face any problems executing tests, upgrade your node version to v20.3 or above[39m
 [90mhttps://www.npmjs.com/package/@lambdatest/smartui-cli[39m
@@ -22,121 +22,119 @@ LambdaTest SmartUI CLI v4.1.15
   "smartIgnore": false
 }
 [auth:debug] http request: GET /token/verify
-[auth:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:20 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d0fdf4b31d80f-BOM"},"body":{"status":"Success","message":"Project Token Successfully Verified","projectToken":"1350616#cad0c854-c30f-4c08-80d7-3146d83e0cf0#veeva-sdk"}}
-[startServer:debug] {"level":30,"time":1751280200446,"pid":14620,"hostname":"LT-LP-001","msg":"Server listening at http://[::1]:49152"}
-[startServer:debug] {"level":30,"time":1751280200448,"pid":14620,"hostname":"LT-LP-001","msg":"Server listening at http://127.0.0.1:49152"}
+[auth:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:28 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d77d3e1859d6-DEL"},"body":{"status":"Success","message":"Project Token Successfully Verified","projectToken":"1350616#01JZ0Y224C8GP78ZCXBR0BC8MR#veeva-token"}}
+[startServer:debug] {"level":30,"time":1751382746445,"pid":24256,"hostname":"LT-LP-001","msg":"Server listening at http://[::1]:49152"}
+[startServer:debug] {"level":30,"time":1751382746448,"pid":24256,"hostname":"LT-LP-001","msg":"Server listening at http://127.0.0.1:49152"}
 [createBuild:debug] http request: POST /build
-[createBuild:debug] {"git":{"branch":"main","commitId":"23d33a2","commitMessage":"SDK with status update","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""},"buildName":"","isStartExec":false,"packageVersion":"4.1.15","smartGit":false,"markBaseline":false,"baselineBuild":""}
-[createBuild:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:21 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d0fe56a32d80f-BOM"},"body":{"data":{"buildURL":"https://smartui.lambdatest.com/builds/cad0c854-c30f-4c08-80d7-3146d83e0cf0?searchBuild=smartui-b8c22fe512","buildId":"c3557afc-0b20-4b9a-9e80-010f670772a2","buildName":"smartui-b8c22fe512","baseline":false,"gdprCompliance":false,"useKafkaFlow":true,"useDedicatedProxy":false,"removeHtmlComments":false}}}
-[exec:debug] {"level":30,"time":1751280226589,"pid":14620,"hostname":"LT-LP-001","reqId":"req-1","req":{"method":"GET","url":"/healthcheck","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":59744},"msg":"incoming request"}
-[exec:debug] {"level":30,"time":1751280226592,"pid":14620,"hostname":"LT-LP-001","reqId":"req-1","res":{"statusCode":200},"responseTime":2.4164000749588013,"msg":"request completed"}
-[exec:debug] {"level":30,"time":1751280226607,"pid":14620,"hostname":"LT-LP-001","reqId":"req-2","req":{"method":"GET","url":"/domserializer","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":59744},"msg":"incoming request"}
-[exec:debug] {"level":30,"time":1751280226608,"pid":14620,"hostname":"LT-LP-001","reqId":"req-2","res":{"statusCode":200},"responseTime":0.76829993724823,"msg":"request completed"}
-[exec:debug] {"level":30,"time":1751280228946,"pid":14620,"hostname":"LT-LP-001","reqId":"req-3","req":{"method":"POST","url":"/snapshot","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":59744},"msg":"incoming request"}
+[createBuild:debug] {"git":{"branch":"main","commitId":"7c0707e","commitMessage":"New API added","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""},"buildName":"","isStartExec":false,"packageVersion":"4.1.15","smartGit":false,"markBaseline":false,"baselineBuild":""}
+[createBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:30 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d7828bc159d6-DEL"},"body":{"data":{"buildURL":"https://smartui.lambdatest.com/builds/01JZ0Y224C8GP78ZCXBR0BC8MR?searchBuild=smartui-f8e7d9d9b2","buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","buildName":"smartui-f8e7d9d9b2","baseline":false,"gdprCompliance":false,"useKafkaFlow":true,"useDedicatedProxy":false,"removeHtmlComments":false}}}
+[exec:debug] {"level":30,"time":1751382770117,"pid":24256,"hostname":"LT-LP-001","reqId":"req-1","req":{"method":"GET","url":"/healthcheck","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
+[exec:debug] {"level":30,"time":1751382770120,"pid":24256,"hostname":"LT-LP-001","reqId":"req-1","res":{"statusCode":200},"responseTime":2.1990000000223517,"msg":"request completed"}
+[exec:debug] {"level":30,"time":1751382770134,"pid":24256,"hostname":"LT-LP-001","reqId":"req-2","req":{"method":"GET","url":"/domserializer","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
+[exec:debug] {"level":30,"time":1751382770136,"pid":24256,"hostname":"LT-LP-001","reqId":"req-2","res":{"statusCode":200},"responseTime":0.9759999997913837,"msg":"request completed"}
+[exec:debug] {"level":30,"time":1751382772450,"pid":24256,"hostname":"LT-LP-001","reqId":"req-3","req":{"method":"POST","url":"/snapshot","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
 [exec:debug] http request: GET /sessions/capabilities
-[exec:debug] {"git":{"branch":"main","commitId":"23d33a2","commitMessage":"SDK with status update","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""}}
-[exec:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:50 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d1095ccb8ff6d-BOM"},"body":{"id":"DA-MAC-1350616-1751280209577072197DIJ","sessionId":"b1c3b02c71dc6e462b081495eb4927e7","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}}
-[exec:debug] fetch caps for sessionId: b1c3b02c71dc6e462b081495eb4927e7 are {"id":"DA-MAC-1350616-1751280209577072197DIJ","sessionId":"b1c3b02c71dc6e462b081495eb4927e7","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}
+[exec:debug] {"git":{"branch":"main","commitId":"7c0707e","commitMessage":"New API added","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""}}
+[exec:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:55 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8233e430d14-DEL"},"body":{"id":"DA-MAC-1350616-1751382758388339786FUR","sessionId":"242ebfc73f6d10296d0cd32d5ff72668","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}}
+[exec:debug] fetch caps for sessionId: 242ebfc73f6d10296d0cd32d5ff72668 are {"id":"DA-MAC-1350616-1751382758388339786FUR","sessionId":"242ebfc73f6d10296d0cd32d5ff72668","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}
 [exec:debug] Using local discovery
-[discovery:debug] Processing snapshot Flipkart https://www.flipkart.com/
-[discovery:debug] {"level":30,"time":1751280230419,"pid":14620,"hostname":"LT-LP-001","reqId":"req-3","res":{"statusCode":200},"responseTime":1473.1503999233246,"msg":"request completed"}
+[discovery:debug] Processing snapshot Flipkart1 https://www.flipkart.com/
+[discovery:debug] {"level":30,"time":1751382773354,"pid":24256,"hostname":"LT-LP-001","reqId":"req-3","res":{"statusCode":200},"responseTime":902.9007999999449,"msg":"request completed"}
 [discovery:debug] Chromium launched with options {"headless":true,"args":["--disable-features=Translate,OptimizationGuideModelDownloading","--disable-background-networking","--disable-background-timer-throttling","--disable-renderer-backgrounding","--disable-backgrounding-occluded-windows","--disable-breakpad","--disable-client-side-phishing-detection","--disable-component-extensions-with-background-pages","--disable-default-apps","--disable-dev-shm-usage","--disable-extensions","--disable-hang-monitor","--disable-ipc-flooding-protection","--disable-notifications","--disable-prompt-on-repost","--disable-sync","--disable-site-isolation-trials","--no-first-run","--no-sandbox","--password-store=basic","--use-mock-keychain","--remote-debugging-port=0","--disable-blink-features=AutomationControlled","--disable-features=UserAgentClientHint"]}
 [discovery:debug] Browser context created with options {"javaScriptEnabled":true,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.107 Safari/537.3","ignoreHTTPSErrors":false}
 [discovery:debug] Setting cookies for domain: www.flipkart.com
-[discovery:debug] Snapshot options: {"sessionId":"b1c3b02c71dc6e462b081495eb4927e7"}
+[discovery:debug] Snapshot options: {"sessionId":"242ebfc73f6d10296d0cd32d5ff72668"}
 [discovery:debug] Page resized to 1920x1080
 [discovery:debug] globalViewport : 1920
 [discovery:debug] Handling request https://www.flipkart.com/
  - skipping root resource
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/DesktopComponents.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/en-js.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/commonLazyLoadChunk.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/commonLazyLoadChunk.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MultiWidgetpage.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MultiWidgetpage.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OVHomePageTS.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OVHomePageTS.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/lazyLoadChunk.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/lazyLoadChunk.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/HomePageNonCriticalActions.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/BaseActionNonCritical.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/BaseActionNonCritical.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OmnitureLazyChunk.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MapiActionNonCriticalActions.css fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MapiActionNonCriticalActions.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/en-js.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/HomePageNonCriticalActions.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OmnitureLazyChunk.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.css fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/076c4f2ee87225d7.jpg?q=80 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/DesktopComponents.css
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.css
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/commonLazyLoadChunk.css
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/lazyLoadChunk.css
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/en-js.js
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OVHomePageTS.css
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/lazyLoadChunk.js
- - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/commonLazyLoadChunk.js
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8ff8ffb16eac0db3.jpg?q=80 fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.css
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/BaseActionNonCritical.css
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.css
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MapiActionNonCriticalActions.css
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.css
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OmnitureLazyChunk.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.css
  - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/en-js.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.css
+ - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MultiWidgetpage.css
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.js
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/HomePageNonCriticalActions.js
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8ff8ffb16eac0db3.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.css
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.css
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OmnitureLazyChunk.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.css
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/BaseActionNonCritical.js
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MapiActionNonCriticalActions.js
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/OVHomePageTS.js
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/076c4f2ee87225d7.jpg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/MultiWidgetpage.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/HomePageNonCriticalActions.js
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_otsc9ldnj.svg+xml
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100 fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.js
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.js
+ - skipping remote resource
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_7pwm9nfte.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.js
+ - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_djriwijn8.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_pbkjp7iqk.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_gptvckqou.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_wb4be9rwg.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg fetching from server
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_cxz56szui.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_o4nibw3rm.svg+xml
  - skipping already cached resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg
- - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg fetching from server
@@ -149,44 +147,37 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/fkvendor.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/149bcb134fac6e22.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/fkvendor.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/app.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/74f0ad81e44e6e6f.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/app.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/fb28e3e1d22e6da2.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/14eb0fb178248c58.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1338bd4fc60390d8.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/4d9f318f85c4056d.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5b309e98775e22e4.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/monitor/i/q/k/-original-imahbzhcdvc6gkhu.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/monitor/b/x/x/-original-imah7rn68zxjzbqx.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kz1lle80/smartwatch/m/f/q/-original-imagb54tb6fpurze.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kcf4lu80/speaker/mobile-tablet-speaker/h/u/f/srs-xb23-sony-original-imaftk66vjxp86h5.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/smartwatch/5/v/s/-original-imagxrhetgfuebnn.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kwl0akw0/printer/x/q/3/-original-imag989ygsdy6v6x.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/projector/4/x/3/atom-3x-native-fhd-1080p-4k-support-13-0-android-projector-300-original-imahbxepqgqurfh7.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2ad9256d47bff7ca.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/dress/o/y/a/s-hoc-dress-1050-house-of-common-original-imahdhhkwzq7eqqp.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/ethnic-set/1/e/q/s-204kbd2167ia-skylee-original-imahd6wrdeytgz3y.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/sandal/n/z/p/7-3093-40-40-paduki-pink-original-imah7wxkk4gzmfh4.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/shoe/q/w/7/6-jmd-507-org-6-6-visiter-orange-original-imah879mhqv8pjyc.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/120/120/image/d86351df4ed906f3.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/sari/x/n/m/free-crystal-wine-11-divine-fabrics-unstitched-original-imahcn86hpyvkbw8.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/shirt/x/m/o/-original-imah77ntswmmb49w.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/530/810/image/00f0871e94d2aa69.png?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kkimfm80/tea/z/n/1/premium-pouch-regular-tea-powder-tata-original-imafzuf2mnubzphd.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/ks6ef0w0/cereal-flake/q/w/h/1-oats-veggies-masala-oats-pouch-yogabar-original-imag5suhzvwy3xh4.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/kl5hh8w0/puzzle/g/n/g/60-wooden-earth-jigsaw-puzzle-60-pcs-webby-original-imagyc8hsdztzdzb.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/krgohow0/learning-toy/1/a/h/mapology-ultimate-indian-combo-india-with-capitals-map-puzzle-original-imag59f2vyh63v9x.jpeg?q=80 fetching from server
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_2wwrzz54z.svg+xml
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/x/v/z/-original-imah28xpzzwz4fwg.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/9/b/n/-original-imah3afnqj84usyy.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/w/w/h/-original-imahc7ezhz9qxm6d.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/s/v/h/-original-imahd57g62dfepkh.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/t/k/h/-original-imah7jsppzwb9qb3.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/m/3/k/-original-imahbqxnuhznhsj4.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/q/n/s/-original-imah4jyfrgsbebg9.jpeg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d89a0cd1fddfeb34.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9a1762cc3212ebf3.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cc9e48717aea42bf.jpg?q=80 fetching from server
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_m9hj49xyo.svg+xml
  - skipping already cached resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_qo1tq3elb.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_gaxgsbbgd.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg fetching from server
@@ -195,134 +186,122 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/DesktopComponents.js fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.js fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg
+[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2 fetching from server
-[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg
  - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.js
+ - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg
+ - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/l58iaa80/electric-cycle/i/y/f/-original-imagfykthgudy4qz.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.js fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/DesktopComponents.js
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kkimfm80/tea/z/n/1/premium-pouch-regular-tea-powder-tata-original-imafzuf2mnubzphd.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2
+[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kcf4lu80/speaker/mobile-tablet-speaker/h/u/f/srs-xb23-sony-original-imaftk66vjxp86h5.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/dress/o/y/a/s-hoc-dress-1050-house-of-common-original-imahdhhkwzq7eqqp.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kwl0akw0/printer/x/q/3/-original-imag989ygsdy6v6x.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/ethnic-set/1/e/q/s-204kbd2167ia-skylee-original-imahd6wrdeytgz3y.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/projector/4/x/3/atom-3x-native-fhd-1080p-4k-support-13-0-android-projector-300-original-imahbxepqgqurfh7.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/sandal/n/z/p/7-3093-40-40-paduki-pink-original-imah7wxkk4gzmfh4.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/smartwatch/5/v/s/-original-imagxrhetgfuebnn.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/shoe/q/w/7/6-jmd-507-org-6-6-visiter-orange-original-imah879mhqv8pjyc.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/monitor/b/x/x/-original-imah7rn68zxjzbqx.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kz1lle80/smartwatch/m/f/q/-original-imagb54tb6fpurze.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/monitor/i/q/k/-original-imahbzhcdvc6gkhu.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/shirt/x/m/o/-original-imah77ntswmmb49w.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1338bd4fc60390d8.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/4d9f318f85c4056d.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/sari/x/n/m/free-crystal-wine-11-divine-fabrics-unstitched-original-imahcn86hpyvkbw8.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/x/v/z/-original-imah28xpzzwz4fwg.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/w/w/h/-original-imahc7ezhz9qxm6d.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/120/120/image/d86351df4ed906f3.jpg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/149bcb134fac6e22.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/14eb0fb178248c58.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/s/v/h/-original-imahd57g62dfepkh.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/9/b/n/-original-imah3afnqj84usyy.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/l51d30w0/shopsy-sport-mat/p/w/s/anadi-01-yoga-mat-4-30-anadi-enterprise-15-original-imagfsxudxcm7r48.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d89a0cd1fddfeb34.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/t/k/h/-original-imah7jsppzwb9qb3.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/74f0ad81e44e6e6f.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5b309e98775e22e4.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/q/n/s/-original-imah4jyfrgsbebg9.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/m/3/k/-original-imahbqxnuhznhsj4.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/jxz0brk0/stuffed-toy/n/t/s/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/kl5hh8w0/puzzle/g/n/g/60-wooden-earth-jigsaw-puzzle-60-pcs-webby-original-imagyc8hsdztzdzb.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/ks6ef0w0/cereal-flake/q/w/h/1-oats-veggies-masala-oats-pouch-yogabar-original-imag5suhzvwy3xh4.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/krgohow0/learning-toy/1/a/h/mapology-ultimate-indian-combo-india-with-capitals-map-puzzle-original-imag59f2vyh63v9x.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cc9e48717aea42bf.jpg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/530/810/image/00f0871e94d2aa69.png?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/fkvendor.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.js
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9a1762cc3212ebf3.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/app.js
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/fb28e3e1d22e6da2.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/1acf5778742efaee231910fce5694889/CrossCommon.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2ad9256d47bff7ca.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/fkvendor.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/app.js
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/async-api.30bd804e-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/860.03a8b7a5-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/session-manager.2a64278a-1.236.0.min.js fetching from server
+[discovery:debug] Handling request https://js-agent.newrelic.com/session-manager.2a64278a-1.236.0.min.js
+ - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/async-api.30bd804e-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/860.03a8b7a5-1.236.0.min.js
- - skipping remote resource
-[discovery:debug] Handling request https://js-agent.newrelic.com/session-manager.2a64278a-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/lazy-feature-loader.2f55ce66-1.236.0.min.js fetching from server
 [discovery:debug] Handling request https://js-agent.newrelic.com/lazy-feature-loader.2f55ce66-1.236.0.min.js
@@ -336,52 +315,52 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js fetching from server
-[discovery:debug] Handling request https://js-agent.newrelic.com/page_view_event-aggregate.06482edd-1.236.0.min.js
- - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/148.1a20d5fe-1.236.0.min.js
+ - skipping remote resource
+[discovery:debug] Handling request https://js-agent.newrelic.com/page_view_event-aggregate.06482edd-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/page_view_timing-aggregate.bd6de33a-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1208&ck=0&s=9f94d096d26295ab&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=21&fe=940&dc=926&perf=%7B%22timing%22:%7B%22of%22:1751280230809,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:21,%22rpe%22:21,%22di%22:684,%22ds%22:947,%22de%22:947,%22dc%22:952,%22l%22:952,%22le%22:961%7D,%22navigation%22:%7B%7D%7D&fp=608&fcp=608 fetching from server
-[discovery:debug] Handling request https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js
- - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1222&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=30&fe=1050&dc=1010&perf=%7B%22timing%22:%7B%22of%22:1751382773601,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:30,%22rpe%22:30,%22di%22:753,%22ds%22:1040,%22de%22:1040,%22dc%22:1076,%22l%22:1076,%22le%22:1079%7D,%22navigation%22:%7B%7D%7D&fp=784&fcp=784 fetching from server
 [discovery:debug] Handling request https://js-agent.newrelic.com/metrics-aggregate.3dc53903-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Handling request https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js
- - skipping remote resource
-[discovery:debug] Handling request https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js
+[discovery:debug] Handling request https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/ajax-aggregate.998ef92b-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/jserrors-aggregate.49e41428-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Handling request https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1208&ck=0&s=9f94d096d26295ab&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=21&fe=940&dc=926&perf=%7B%22timing%22:%7B%22of%22:1751280230809,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:21,%22rpe%22:21,%22di%22:684,%22ds%22:947,%22de%22:947,%22dc%22:952,%22l%22:952,%22le%22:961%7D,%22navigation%22:%7B%7D%7D&fp=608&fcp=608
+[discovery:debug] Handling request https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1889&ck=0&s=9f94d096d26295ab&ref=https://www.flipkart.com/ fetching from server
-[discovery:debug] Handling request https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1889&ck=0&s=9f94d096d26295ab&ref=https://www.flipkart.com/
+[discovery:debug] Handling request https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js
+ - skipping remote resource
+[discovery:debug] Handling request https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1222&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=30&fe=1050&dc=1010&perf=%7B%22timing%22:%7B%22of%22:1751382773601,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:30,%22rpe%22:30,%22di%22:753,%22ds%22:1040,%22de%22:1040,%22dc%22:1076,%22l%22:1076,%22le%22:1079%7D,%22navigation%22:%7B%7D%7D&fp=784&fcp=784
+ - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1994&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/ fetching from server
+[discovery:debug] Handling request https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1994&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/
  - skipping remote resource
 [discovery:debug] Navigated to https://www.flipkart.com/
 [discovery:debug] Network idle 500ms
-[discovery:debug] Processed options: {"sessionId":"b1c3b02c71dc6e462b081495eb4927e7","testId":"DA-MAC-1350616-1751280209577072197DIJ"}
+[discovery:debug] Processed options: {"sessionId":"242ebfc73f6d10296d0cd32d5ff72668","testId":"DA-MAC-1350616-1751382758388339786FUR"}
 [discovery:debug] http request: POST /snapshotuploadurl
-[discovery:debug] {"buildId":"c3557afc-0b20-4b9a-9e80-010f670772a2","snapshotName":"Flipkart","snapshotUuid":"39453f8a-f959-45dd-9d92-0b303fe0a30b"}
-[discovery:debug] {"buildId":"c3557afc-0b20-4b9a-9e80-010f670772a2","snapshotName":"Flipkart","snapshotUuid":"39453f8a-f959-45dd-9d92-0b303fe0a30b"}
-[discovery:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:55 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"957d10babbdaff6d-BOM"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/cad0c854-c30f-4c08-80d7-3146d83e0cf0/c3557afc-0b20-4b9a-9e80-010f670772a2/dom/Flipkart_39453f8a-f959-45dd-9d92-0b303fe0a30b.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6ZOKSZBIK%2F20250630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250630T104354Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCe6yhWSNVDZRvjKZKN%2FMg6ZdIIEtiSGGsVkmKgs4sDbAIhAKRaLVqNnCLfGd1ZqUeyKqymGS3%2Bm1S1KrUSZWj4uINpKocFCLz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igwb%2BPLxVQU7EO1q%2F8Eq2wTcKuyOL48%2FrXqsMasYzP86ilh1tvIEr32Lw%2F1yeBYLPnpOLjYSU5cPkREuJ5v1bpqnp34JztLOa3ZJ6wrXqilICv7%2BVLrkR%2ByQrPlWTPIqOgp3%2BFeFjaFV3opLa8MeoEp6m59rY7OrX6urptIgV0YemNanYDikDLm4ssXmVOUN%2F0WeNUNNJWAOF%2FFP5JaTqB4KqACa3qvaC68KgXj4719LWWzKJcrL812YrMOc7oxbm0JB%2FYXrhtn5IHxQI04eyvd6LbYLyQ%2B%2FwNdTDRwuq6CEkg%2FrM4xlZpDz1vxzoLfdUrs2XKorVE5Oatpm5ypUl%2FwgWaqBSDAfnPY3m5FRRNCnfwRNzeOafLsBS1hCAk9tuUnvyCmj%2BanMJWSe1%2BfEM%2Fnz5od%2BodRp74hlgGW6ul%2FnyJdxa8QgtA2taDt8EfAbHsTfcgwkPdARnOVxwdqpNL16%2F5JhuxObiFbpFlFdDX2FMcPosKNnhGibXYWH5102pmwd7%2FhgJanh35SIf98gC%2F9mfHbZx1h%2FT%2Bx8Mq1oX8TNIoh6ZXZpJm82gumm83%2FM3WdhQbOT3rE3ovSGwv%2BELP3LGnkBKATWWuLZdmGL1iyPobzRH2RAG4Z%2BNweZoESMakcA6GPTFhMc%2Fac6PFAkq4qdWM4e2i7AOoLsO7tWlc%2FbCIUf7Uf4Ik4%2FVDNmY2dxxHzNG8HfvmRF0AXtWPJ5xkhl0C300CkYnMcp6aZqzk2khmSnWuW7qXiEFVL4ttk3ugub2AWdl%2BaT9v%2FfyQHLQ6WOdsmWmjy8latAyEw1AEzD%2BWnPeoa%2FS4Op8U0w6tSJwwY6mQEk8nRpkLc00Me9eLXWQ%2B0zKw4bsk0Rcutr1o4vJJ5ltH8K6Z3KrqnuMIKIvxD%2BUT4Z5rkTXkQWQVQnDQCeATGtA4O9Dq6DvyHkymGmE4luvLs%2BlvanIK2HlNN2ycefQjLANFg%2BUWXsPVl6dmj4M9qJskKv4A9mqhJCB0dLo67j%2B8SA0xODYhm%2BDB0UtOl47W7csePsTIWe%2Fwc%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=45a4b132151ce8ff777e6cdfeac2f0aa5f3dd0d6ceb22eaed622a52acec54c89"}}}
-[discovery:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/cad0c854-c30f-4c08-80d7-3146d83e0cf0/c3557afc-0b20-4b9a-9e80-010f670772a2/dom/Flipkart_39453f8a-f959-45dd-9d92-0b303fe0a30b.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6ZOKSZBIK%2F20250630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250630T104354Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCe6yhWSNVDZRvjKZKN%2FMg6ZdIIEtiSGGsVkmKgs4sDbAIhAKRaLVqNnCLfGd1ZqUeyKqymGS3%2Bm1S1KrUSZWj4uINpKocFCLz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igwb%2BPLxVQU7EO1q%2F8Eq2wTcKuyOL48%2FrXqsMasYzP86ilh1tvIEr32Lw%2F1yeBYLPnpOLjYSU5cPkREuJ5v1bpqnp34JztLOa3ZJ6wrXqilICv7%2BVLrkR%2ByQrPlWTPIqOgp3%2BFeFjaFV3opLa8MeoEp6m59rY7OrX6urptIgV0YemNanYDikDLm4ssXmVOUN%2F0WeNUNNJWAOF%2FFP5JaTqB4KqACa3qvaC68KgXj4719LWWzKJcrL812YrMOc7oxbm0JB%2FYXrhtn5IHxQI04eyvd6LbYLyQ%2B%2FwNdTDRwuq6CEkg%2FrM4xlZpDz1vxzoLfdUrs2XKorVE5Oatpm5ypUl%2FwgWaqBSDAfnPY3m5FRRNCnfwRNzeOafLsBS1hCAk9tuUnvyCmj%2BanMJWSe1%2BfEM%2Fnz5od%2BodRp74hlgGW6ul%2FnyJdxa8QgtA2taDt8EfAbHsTfcgwkPdARnOVxwdqpNL16%2F5JhuxObiFbpFlFdDX2FMcPosKNnhGibXYWH5102pmwd7%2FhgJanh35SIf98gC%2F9mfHbZx1h%2FT%2Bx8Mq1oX8TNIoh6ZXZpJm82gumm83%2FM3WdhQbOT3rE3ovSGwv%2BELP3LGnkBKATWWuLZdmGL1iyPobzRH2RAG4Z%2BNweZoESMakcA6GPTFhMc%2Fac6PFAkq4qdWM4e2i7AOoLsO7tWlc%2FbCIUf7Uf4Ik4%2FVDNmY2dxxHzNG8HfvmRF0AXtWPJ5xkhl0C300CkYnMcp6aZqzk2khmSnWuW7qXiEFVL4ttk3ugub2AWdl%2BaT9v%2FfyQHLQ6WOdsmWmjy8latAyEw1AEzD%2BWnPeoa%2FS4Op8U0w6tSJwwY6mQEk8nRpkLc00Me9eLXWQ%2B0zKw4bsk0Rcutr1o4vJJ5ltH8K6Z3KrqnuMIKIvxD%2BUT4Z5rkTXkQWQVQnDQCeATGtA4O9Dq6DvyHkymGmE4luvLs%2BlvanIK2HlNN2ycefQjLANFg%2BUWXsPVl6dmj4M9qJskKv4A9mqhJCB0dLo67j%2B8SA0xODYhm%2BDB0UtOl47W7csePsTIWe%2Fwc%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=45a4b132151ce8ff777e6cdfeac2f0aa5f3dd0d6ceb22eaed622a52acec54c89
-[discovery:debug] http response: {"status":200,"headers":{"x-amz-id-2":"1c1WPsLt5QwQd8GYkszGulmFxSAJYCIKO6VVTp4hVfgBX0bFjs6EMUPRg0n8Vg4Z1YWAQibo1To0wTWSJhQYEbXhrUGR5LsV7pxmtedXAHI=","x-amz-request-id":"0VH2B2GJAQGPWK37","date":"Mon, 30 Jun 2025 10:43:58 GMT","x-amz-version-id":"N_ojOZxlS7nJ_FxPYb6lBN93FrG7BnsS","x-amz-expiration":"expiry-date=\"Wed, 01 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"4c062bf0fb4e021ec6ab44dfe22af686\"","x-amz-checksum-crc64nvme":"krFyBwyk26U=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
-[discovery:debug] http request: POST /build/c3557afc-0b20-4b9a-9e80-010f670772a2/snapshot
-[discovery:debug] {"name":"Flipkart","url":"https://www.flipkart.com/","snapshotUuid":"39453f8a-f959-45dd-9d92-0b303fe0a30b","test":{"type":"lambdatest-java-sdk","source":"cli"},"discoveryErrors":{"name":"Flipkart","url":"https://www.flipkart.com/","timestamp":"","snapshotUUID":"","browsers":{}}}
-[discovery:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:43:58 GMT","content-type":"application/json","content-length":"31","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d10cb7f4fff6d-BOM"},"body":{"data":{"message":"success"}}}
-[discovery:debug] Closed browser page for snapshot Flipkart
-[discovery:debug] Closed browser context for snapshot Flipkart
+[discovery:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","snapshotName":"Flipkart1","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc"}
+[discovery:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","snapshotName":"Flipkart1","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc"}
+[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:59 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"9586d844b89c0d14-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/dom/Flipkart1_53076774-25ea-458e-9a7a-077e04fa39bc.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX66M2EPSAG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151259Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCYcrCjuIQqdzgeNDu%2FVksCfLKoPvDmVlRDMEuSIw3cTAIhAK3qhmDNYURjUV51ZGe2rkp%2Bd1c%2FGAdQAKjmPxCx653DKocFCNj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igz16p21nWG7FkSPH2sq2wTpZewRdlOOyfAt4vr9kpQRSBVGkMzRZYVuO8VDiyUptRLI08NrdUTFy2heNKxJ6SnfdjpQPdwak6VAL2a8EvyMHxzQMKSrEGHMTqqfzDWlH94D%2BEmb%2Bg4LwybHryApKgYJ%2BM0%2FkXzmRI%2BYOQk4wQbVi%2FgXJb9WbXD1xFl3IgbAxAaLqiPCHTtKTP%2BnM5IHF0rEODB4eDDdQilKqcavmphWzfZb7oQB%2FnwBQ5OJ5VRI1lvbxk6dJhkV4xnc%2FRcQjBNaAQMS98fUd3oIkb8Z0fz88fdKq7zlNy0F8F9ymY2tHEgpJsMuoL9Nj%2FNvgUqtmZe3AsMz5iqRUHn8bntdNkRyvpOz%2BvdFZm3WiKyEqwFYqfbGM90nsR%2F%2Bi4anUEw55ypW1nRjhd4%2B8aHWJl2umonhUA6Jl84Rlx0J8%2BssbdkL4Saf2aAbvx26nGH3BhHpzEjfX24ZcDQctZAs5nrhEepBawvF2kWYL7CBGOsDyiXNVDBs2MZgdahJuX4RQR9HqIXEOmffmDySghJ%2BNwMgA7%2Bjhra14elTPmEwoF9REvz3j9hmOF9F2budwmjLdKJvwZ%2Bdi984kmKgjWZogslUiqgno8xvv%2BZcKx5D5JJiRPQrPkzC2Qc9t2kFM8Pu5EbcO5eOPceCzYhHDEsTYm8YCt8ESR7vR%2FhJ45qQvlxBVrErjZraTZSEw4RV%2BH6Xj4uy1JIOGofBOV75XYRQIhWfQUYWVZC%2BGbdGx3bdJUJwdGfrHgi1FXl6LxhU6A9inzP8p8SFrzZZx67eSAQ%2FW3Nff%2BZNR0bzckC8K4vkMVYw%2B%2FWPwwY6mQEo4Y%2FNUgLVT8JLWtZWvL4xofPFfdGJNJwA9EPzK0oYmwa5kmRNqcJ1GedKZrFk21l9iIO0znNyt%2B61ENucWBMDL76t01golFxkgwqcUs9F9Su%2BKltMaANc80ku9fI72a%2BtMWPvUAx1Ke7Iet%2B%2FiK7C8po%2B9dTy8ZFGvpwFDTykfqELz6zn%2FY6ttGBGeI0oSOgo7NmYTdhcFAI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=df94de80f899353ec59af7c36ddecdac8b5e629cafcc2af1b37e2a932bd3ef5a"}}}
+[discovery:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/dom/Flipkart1_53076774-25ea-458e-9a7a-077e04fa39bc.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX66M2EPSAG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151259Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCYcrCjuIQqdzgeNDu%2FVksCfLKoPvDmVlRDMEuSIw3cTAIhAK3qhmDNYURjUV51ZGe2rkp%2Bd1c%2FGAdQAKjmPxCx653DKocFCNj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igz16p21nWG7FkSPH2sq2wTpZewRdlOOyfAt4vr9kpQRSBVGkMzRZYVuO8VDiyUptRLI08NrdUTFy2heNKxJ6SnfdjpQPdwak6VAL2a8EvyMHxzQMKSrEGHMTqqfzDWlH94D%2BEmb%2Bg4LwybHryApKgYJ%2BM0%2FkXzmRI%2BYOQk4wQbVi%2FgXJb9WbXD1xFl3IgbAxAaLqiPCHTtKTP%2BnM5IHF0rEODB4eDDdQilKqcavmphWzfZb7oQB%2FnwBQ5OJ5VRI1lvbxk6dJhkV4xnc%2FRcQjBNaAQMS98fUd3oIkb8Z0fz88fdKq7zlNy0F8F9ymY2tHEgpJsMuoL9Nj%2FNvgUqtmZe3AsMz5iqRUHn8bntdNkRyvpOz%2BvdFZm3WiKyEqwFYqfbGM90nsR%2F%2Bi4anUEw55ypW1nRjhd4%2B8aHWJl2umonhUA6Jl84Rlx0J8%2BssbdkL4Saf2aAbvx26nGH3BhHpzEjfX24ZcDQctZAs5nrhEepBawvF2kWYL7CBGOsDyiXNVDBs2MZgdahJuX4RQR9HqIXEOmffmDySghJ%2BNwMgA7%2Bjhra14elTPmEwoF9REvz3j9hmOF9F2budwmjLdKJvwZ%2Bdi984kmKgjWZogslUiqgno8xvv%2BZcKx5D5JJiRPQrPkzC2Qc9t2kFM8Pu5EbcO5eOPceCzYhHDEsTYm8YCt8ESR7vR%2FhJ45qQvlxBVrErjZraTZSEw4RV%2BH6Xj4uy1JIOGofBOV75XYRQIhWfQUYWVZC%2BGbdGx3bdJUJwdGfrHgi1FXl6LxhU6A9inzP8p8SFrzZZx67eSAQ%2FW3Nff%2BZNR0bzckC8K4vkMVYw%2B%2FWPwwY6mQEo4Y%2FNUgLVT8JLWtZWvL4xofPFfdGJNJwA9EPzK0oYmwa5kmRNqcJ1GedKZrFk21l9iIO0znNyt%2B61ENucWBMDL76t01golFxkgwqcUs9F9Su%2BKltMaANc80ku9fI72a%2BtMWPvUAx1Ke7Iet%2B%2FiK7C8po%2B9dTy8ZFGvpwFDTykfqELz6zn%2FY6ttGBGeI0oSOgo7NmYTdhcFAI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=df94de80f899353ec59af7c36ddecdac8b5e629cafcc2af1b37e2a932bd3ef5a
+[discovery:debug] http response: {"status":200,"headers":{"x-amz-id-2":"CNKbr+ID1J1YYlGyMqvG3d5i7usXyMDCVUYvGq6OKih8dK3WoJeWOYNuZKvKXu17Lp8IBOdGuPU=","x-amz-request-id":"YTCXWPXYKDJ9P6GT","date":"Tue, 01 Jul 2025 15:13:05 GMT","x-amz-version-id":"lxGSYDsiZfz9ha.cBWVeWgfO1QvEGbJH","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"57f5b73825043766126e1dfbcc92a6d7\"","x-amz-checksum-crc64nvme":"KXu1JzNh7aw=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
+[discovery:debug] http request: POST /build/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/snapshot
+[discovery:debug] {"name":"Flipkart1","url":"https://www.flipkart.com/","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc","test":{"type":"lambdatest-java-sdk","source":"cli"},"discoveryErrors":{"name":"Flipkart1","url":"https://www.flipkart.com/","timestamp":"","snapshotUUID":"","browsers":{}}}
+[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:05 GMT","content-type":"application/json","content-length":"31","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8629acb0d14-DEL"},"body":{"data":{"message":"success"}}}
+[discovery:debug] Closed browser page for snapshot Flipkart1
+[discovery:debug] Closed browser context for snapshot Flipkart1
 [finalizeBuild:debug] http request: DELETE /build
-[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:44:27 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"957d1180782a47c4-BOM"},"body":{"data":{"message":"Build finalized successfully"}}}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:30 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8ff4cac96b4-DEL"},"body":{"data":{"message":"Build finalized successfully"}}}
 [finalizeBuild:debug] Closed browser
 [finalizeBuild:debug] Closed server
 [finalizeBuild:debug] Log file to be uploaded
 [finalizeBuild:debug] http request: POST /loguploadurl
-[finalizeBuild:debug] {"buildId":"c3557afc-0b20-4b9a-9e80-010f670772a2"}
-[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Mon, 30 Jun 2025 10:44:28 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"957d1189ed0f47c4-BOM"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/cad0c854-c30f-4c08-80d7-3146d83e0cf0/c3557afc-0b20-4b9a-9e80-010f670772a2/cli-3ca180fc-051f-4a39-bdc8-6a173b1e452a.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6ZDZ22W5H%2F20250630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250630T104428Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDVXkg6TibEJYgM4LkHqYI8lmatzQx1glH%2FGEsqFuRfgQIgQta22VanxyJhQpKzQfI6VjPLkAe3UmJ4b7xnTGijGWQqhwUIvP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDPLt6zGnSMdUsIzvyrbBHRmAhO0lPS%2Bnbsa91Xp8sPUiyNSVUvmJiyNsWyCtSs0hwb8K%2BJFul%2BP4B7V7drYMyzD83ZOkIhg26w358DLmTDqg8sI2XFP3U1dVlBoudvfrPQZOORGMkHMH%2FS5z%2FuLXmoCwkwq4rZhD3z1QBB%2BwfrQfeUt1T%2FCuEjSh5oT4Pe9ULA2Ow0Ax%2BWWq1ZPytaXMvnoQgoltPHvDtiTaR%2BqNw6c%2Bl%2Fmw7C1d665rZrMD%2BiJto6JEpTttwGma4PWGxVoLtHGjwkQKTD5SeCO8vatbgJv7fxX%2FyNfo8zXIR5IQylMGQDjHYqKYDUBWniuthdQRLZeNx5obAGaxMbCKwDE41LWnjCgwlQHi466pqX%2BdSSdaqGSMDl6mjpO3Fq%2FrUZbyWXcMbOBrGGFLD4jCl%2BKVZmW3lv4U0uM648QHR3wHUu57dBopyyf1FqvWVY0kh7HC2ZCY6b4t%2FCshWDgoMVhVbi2IXOsN6%2F%2Ft3PN808RO5xKljPuG0bCoolBQ8ilgYrP921V%2FLYP8ypfkRnPI6yrTU7VgZiuWZFe5vAnNYoZaXR0WPUyS%2BGfyTKIhZX2OXLDYVzzgY54yNq5ySNKOiGBe8YcEyq20a8eQDgO5Jcy4Zjs%2FL73c4eJsST2JORf%2FVU%2BdgZ3NH5brU9MC6bjWdXztLayxZIwS%2F5wGdQgxvNZxMYnO5E9KJY9%2FhMFOsHfok8gt2kz9KIWj6VfusAwHX3cnN4PuEiPip4QUG78l%2B%2Bt0MN%2BAz7vzaPIWP82WsYrfqTEu9ARN%2FSxpDXxQN0oMfI3b9MGwL9PkKxXCl2ySjCM1YnDBjqaAcT%2BkKHesQkt7vn9LEg3LQ3cBYBzwTaBw%2F4wyuGv33xoVd%2BGNdWdUIUft8oz03INu5Bo14cvmBgbBqPmSjNJ4qPrPrm3kvoTx6Ghm3qlQ5tPm%2BbxMRQhU4jctmCve1%2FZfRZp2kMQs5ksjYcambmN75T3IzP3ErYaKx9aQw3s84BS9eM8jjZbCQmodfLrfyM%2BiD%2Be1DhF26TQEcA%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a62c51432978cb3f30effe879e3d6e34b449f44efc6cafa301f43d42cedd1869"}}}
-[finalizeBuild:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/cad0c854-c30f-4c08-80d7-3146d83e0cf0/c3557afc-0b20-4b9a-9e80-010f670772a2/cli-3ca180fc-051f-4a39-bdc8-6a173b1e452a.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6ZDZ22W5H%2F20250630%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250630T104428Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDVXkg6TibEJYgM4LkHqYI8lmatzQx1glH%2FGEsqFuRfgQIgQta22VanxyJhQpKzQfI6VjPLkAe3UmJ4b7xnTGijGWQqhwUIvP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDPLt6zGnSMdUsIzvyrbBHRmAhO0lPS%2Bnbsa91Xp8sPUiyNSVUvmJiyNsWyCtSs0hwb8K%2BJFul%2BP4B7V7drYMyzD83ZOkIhg26w358DLmTDqg8sI2XFP3U1dVlBoudvfrPQZOORGMkHMH%2FS5z%2FuLXmoCwkwq4rZhD3z1QBB%2BwfrQfeUt1T%2FCuEjSh5oT4Pe9ULA2Ow0Ax%2BWWq1ZPytaXMvnoQgoltPHvDtiTaR%2BqNw6c%2Bl%2Fmw7C1d665rZrMD%2BiJto6JEpTttwGma4PWGxVoLtHGjwkQKTD5SeCO8vatbgJv7fxX%2FyNfo8zXIR5IQylMGQDjHYqKYDUBWniuthdQRLZeNx5obAGaxMbCKwDE41LWnjCgwlQHi466pqX%2BdSSdaqGSMDl6mjpO3Fq%2FrUZbyWXcMbOBrGGFLD4jCl%2BKVZmW3lv4U0uM648QHR3wHUu57dBopyyf1FqvWVY0kh7HC2ZCY6b4t%2FCshWDgoMVhVbi2IXOsN6%2F%2Ft3PN808RO5xKljPuG0bCoolBQ8ilgYrP921V%2FLYP8ypfkRnPI6yrTU7VgZiuWZFe5vAnNYoZaXR0WPUyS%2BGfyTKIhZX2OXLDYVzzgY54yNq5ySNKOiGBe8YcEyq20a8eQDgO5Jcy4Zjs%2FL73c4eJsST2JORf%2FVU%2BdgZ3NH5brU9MC6bjWdXztLayxZIwS%2F5wGdQgxvNZxMYnO5E9KJY9%2FhMFOsHfok8gt2kz9KIWj6VfusAwHX3cnN4PuEiPip4QUG78l%2B%2Bt0MN%2BAz7vzaPIWP82WsYrfqTEu9ARN%2FSxpDXxQN0oMfI3b9MGwL9PkKxXCl2ySjCM1YnDBjqaAcT%2BkKHesQkt7vn9LEg3LQ3cBYBzwTaBw%2F4wyuGv33xoVd%2BGNdWdUIUft8oz03INu5Bo14cvmBgbBqPmSjNJ4qPrPrm3kvoTx6Ghm3qlQ5tPm%2BbxMRQhU4jctmCve1%2FZfRZp2kMQs5ksjYcambmN75T3IzP3ErYaKx9aQw3s84BS9eM8jjZbCQmodfLrfyM%2BiD%2Be1DhF26TQEcA%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a62c51432978cb3f30effe879e3d6e34b449f44efc6cafa301f43d42cedd1869
+[finalizeBuild:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48"}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:31 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"9586d907cf3d96b4-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/cli-11cba79b-a8c0-47fc-856b-b7f3d5c79009.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6V6COB2FZ%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151330Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFWnPAFCTeqG2I1cBdpoPUbW6t0g%2BxgoRpja82ZYMvlzAiEArR3N2Zhvw9IWJCu4ZSLz3OznbZBIuU4afrwONi7%2FdL0qhwUI2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDP1DRimgl3ggA7IfirbBBkJsNlbWRM2J%2FfGGyOKeGJAOCb5iX3Et0Qh3mP2EsgIKqxtEMXwbCTLMM5a%2FI2jK%2Fg6VPaBOWGlzO5cf1%2Bniu4rQPxay0mjlHDU5Vvt579LdnrQt64zDE61MwF8ntuWOU8BfwXSPEpMrFtgOZQewX3XVFRgzyK0Nu5sRXvJ94NvmJliUawGhbntyXqLpgR3nyx%2BrjH43iMFQ6SHUETXu3HvT5EwN%2B26sfkCZTlwgytu0yeUlB%2BPpX%2Bw2BZHGMzJfgcMgL2IJe82tzlWVxdU7bTKasHncEEX3w5HvYljZS10hlHer3iP%2F79GX0bGyLxT9O7ijKvHTolyMVle8wAohshcnwyzfno%2BEofQmKxBi%2FfgLv23Kbpa9JZTrBqxDsGV2erUWUSUonkwi9XbOEl1UO5XKxCzayea7Dov5BXjaAhPWMBYMG4jCuTGBPtJZ1RiIeFy3it%2But%2BzksiVrXUJ9TDmXvn%2FmiOxEDOcilfxYLAhwzMkwLfXwNnxMKSOzPefNfutv8GEHolLMriP%2BJgkaB7PRWlAjorqsKY4uVq4bwY6v1DWsNza9fC5GCc4UezHu6cq1JoMBVV8AFknAICEjsBj2Tdhwpi8IDI1r9W61CdBYInD8jm8O1PUF44m2JQF15QrU2YKaB%2B%2Fn%2FxlRy0pPv8PtiaNu62N38prSLQCopVGXGv5RaDdtbJ31skA%2FCF1OkshXcpImo6KomoYucMzvluBGZL3Tj64jdiEBcDV2maBWTuXX%2FEC4AN6hzCSCEyB67O4qDtP7dvFChf2Vq8fs7jcGAOXyCh4gfnH1DCa9o%2FDBjqaAVXHKF6EgZkEQnXiYOdfnPmVGl%2FP4ShaMAp4GYKI%2FFKIA4Iy7rwTxCs%2FWiNP5hKmt%2F92SNWGOCer6rG6Gd%2BxXxFs0yAfC9Ozeilqg%2F%2Bm5hAn8dBcNkhRunUwuomTzQndT26cRrRWJ8W6KQZAQI4WBZ13SnpMGJb9J2AcSBPCkzhPLoaX%2Fwn%2BGmOL%2F4ctbGPHTQnifGGVcJAS6n4%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b8532e521b701695b2fb90fb8a1abd055510bfe9b771f74500a36996f316c52c"}}}
+[finalizeBuild:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/cli-11cba79b-a8c0-47fc-856b-b7f3d5c79009.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6V6COB2FZ%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151330Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFWnPAFCTeqG2I1cBdpoPUbW6t0g%2BxgoRpja82ZYMvlzAiEArR3N2Zhvw9IWJCu4ZSLz3OznbZBIuU4afrwONi7%2FdL0qhwUI2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDP1DRimgl3ggA7IfirbBBkJsNlbWRM2J%2FfGGyOKeGJAOCb5iX3Et0Qh3mP2EsgIKqxtEMXwbCTLMM5a%2FI2jK%2Fg6VPaBOWGlzO5cf1%2Bniu4rQPxay0mjlHDU5Vvt579LdnrQt64zDE61MwF8ntuWOU8BfwXSPEpMrFtgOZQewX3XVFRgzyK0Nu5sRXvJ94NvmJliUawGhbntyXqLpgR3nyx%2BrjH43iMFQ6SHUETXu3HvT5EwN%2B26sfkCZTlwgytu0yeUlB%2BPpX%2Bw2BZHGMzJfgcMgL2IJe82tzlWVxdU7bTKasHncEEX3w5HvYljZS10hlHer3iP%2F79GX0bGyLxT9O7ijKvHTolyMVle8wAohshcnwyzfno%2BEofQmKxBi%2FfgLv23Kbpa9JZTrBqxDsGV2erUWUSUonkwi9XbOEl1UO5XKxCzayea7Dov5BXjaAhPWMBYMG4jCuTGBPtJZ1RiIeFy3it%2But%2BzksiVrXUJ9TDmXvn%2FmiOxEDOcilfxYLAhwzMkwLfXwNnxMKSOzPefNfutv8GEHolLMriP%2BJgkaB7PRWlAjorqsKY4uVq4bwY6v1DWsNza9fC5GCc4UezHu6cq1JoMBVV8AFknAICEjsBj2Tdhwpi8IDI1r9W61CdBYInD8jm8O1PUF44m2JQF15QrU2YKaB%2B%2Fn%2FxlRy0pPv8PtiaNu62N38prSLQCopVGXGv5RaDdtbJ31skA%2FCF1OkshXcpImo6KomoYucMzvluBGZL3Tj64jdiEBcDV2maBWTuXX%2FEC4AN6hzCSCEyB67O4qDtP7dvFChf2Vq8fs7jcGAOXyCh4gfnH1DCa9o%2FDBjqaAVXHKF6EgZkEQnXiYOdfnPmVGl%2FP4ShaMAp4GYKI%2FFKIA4Iy7rwTxCs%2FWiNP5hKmt%2F92SNWGOCer6rG6Gd%2BxXxFs0yAfC9Ozeilqg%2F%2Bm5hAn8dBcNkhRunUwuomTzQndT26cRrRWJ8W6KQZAQI4WBZ13SnpMGJb9J2AcSBPCkzhPLoaX%2Fwn%2BGmOL%2F4ctbGPHTQnifGGVcJAS6n4%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b8532e521b701695b2fb90fb8a1abd055510bfe9b771f74500a36996f316c52c
 [finalizeBuild:debug] {"fd":null,"path":".smartui.log","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
-[finalizeBuild:debug] http response: {"status":200,"headers":{"x-amz-id-2":"A4F/dcimVTQhT3loSzzLm1QoARb8K+Tc0b5Rk9UbGCXCBARapAR6pV+Uxw2h98tcvxv7IF5rdrNLKxQjWibIhe2/bp4sSiON","x-amz-request-id":"8Q489QD1PP7TXYE5","date":"Mon, 30 Jun 2025 10:44:30 GMT","x-amz-version-id":"Ef5pvnb4Y3oTTFYdHUtH5rn1Ttc1yvBI","x-amz-expiration":"expiry-date=\"Wed, 01 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"424dca2f3233bdbd6161e24f2d2af000\"","x-amz-checksum-crc64nvme":"bQaJr9gaSGU=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"x-amz-id-2":"t+WEM01mhcNEtF1rudiRo7rys31iPHiFk6Clvtwpzdvqn0dPRDtCjM1uW+W3XJ49w26ix8pkGskLVp1xAQr1Aw==","x-amz-request-id":"2D49YTKYGSZGFP6H","date":"Tue, 01 Jul 2025 15:13:35 GMT","x-amz-version-id":"_3z0INPGCeMt2lUzHJxSXgXGcz0Chox2","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"816abd8ee430770b9ed34750b9c5cb8e\"","x-amz-checksum-crc64nvme":"moaCvGDfTlg=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
