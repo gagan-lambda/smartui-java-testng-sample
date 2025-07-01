@@ -1,5 +1,5 @@
 [:debug] http request: GET /packageinfo
-[:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:27 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d77b3c1859d6-DEL"},"body":{"data":{"latestVersion":"4.1.15","deprecated":false,"additionalDescription":"If you face any problems executing tests, upgrade your node version to v20.3 or above","additionalDescriptionLatestVersion":"If you face any problems executing tests, upgrade your node version to v20.3 or above"}}}
+[:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:23:52 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"958847c4a9dd59ca-DEL"},"body":{"data":{"latestVersion":"4.1.15","deprecated":false,"additionalDescription":"If you face any problems executing tests, upgrade your node version to v20.3 or above","additionalDescriptionLatestVersion":"If you face any problems executing tests, upgrade your node version to v20.3 or above"}}}
 LambdaTest SmartUI CLI v4.1.15
 [33mIf you face any problems executing tests, upgrade your node version to v20.3 or above[39m
 [90mhttps://www.npmjs.com/package/@lambdatest/smartui-cli[39m
@@ -22,28 +22,28 @@ LambdaTest SmartUI CLI v4.1.15
   "smartIgnore": false
 }
 [auth:debug] http request: GET /token/verify
-[auth:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:28 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d77d3e1859d6-DEL"},"body":{"status":"Success","message":"Project Token Successfully Verified","projectToken":"1350616#01JZ0Y224C8GP78ZCXBR0BC8MR#veeva-token"}}
-[startServer:debug] {"level":30,"time":1751382746445,"pid":24256,"hostname":"LT-LP-001","msg":"Server listening at http://[::1]:49152"}
-[startServer:debug] {"level":30,"time":1751382746448,"pid":24256,"hostname":"LT-LP-001","msg":"Server listening at http://127.0.0.1:49152"}
+[auth:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:23:53 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"958847c6ebae59ca-DEL"},"body":{"status":"Success","message":"Project Token Successfully Verified","projectToken":"1350616#01JZ0Y224C8GP78ZCXBR0BC8MR#veeva-token"}}
+[startServer:debug] {"level":30,"time":1751397831074,"pid":14324,"hostname":"LT-LP-001","msg":"Server listening at http://[::1]:49152"}
+[startServer:debug] {"level":30,"time":1751397831077,"pid":14324,"hostname":"LT-LP-001","msg":"Server listening at http://127.0.0.1:49152"}
 [createBuild:debug] http request: POST /build
-[createBuild:debug] {"git":{"branch":"main","commitId":"7c0707e","commitMessage":"New API added","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""},"buildName":"","isStartExec":false,"packageVersion":"4.1.15","smartGit":false,"markBaseline":false,"baselineBuild":""}
-[createBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:30 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d7828bc159d6-DEL"},"body":{"data":{"buildURL":"https://smartui.lambdatest.com/builds/01JZ0Y224C8GP78ZCXBR0BC8MR?searchBuild=smartui-f8e7d9d9b2","buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","buildName":"smartui-f8e7d9d9b2","baseline":false,"gdprCompliance":false,"useKafkaFlow":true,"useDedicatedProxy":false,"removeHtmlComments":false}}}
-[exec:debug] {"level":30,"time":1751382770117,"pid":24256,"hostname":"LT-LP-001","reqId":"req-1","req":{"method":"GET","url":"/healthcheck","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
-[exec:debug] {"level":30,"time":1751382770120,"pid":24256,"hostname":"LT-LP-001","reqId":"req-1","res":{"statusCode":200},"responseTime":2.1990000000223517,"msg":"request completed"}
-[exec:debug] {"level":30,"time":1751382770134,"pid":24256,"hostname":"LT-LP-001","reqId":"req-2","req":{"method":"GET","url":"/domserializer","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
-[exec:debug] {"level":30,"time":1751382770136,"pid":24256,"hostname":"LT-LP-001","reqId":"req-2","res":{"statusCode":200},"responseTime":0.9759999997913837,"msg":"request completed"}
-[exec:debug] {"level":30,"time":1751382772450,"pid":24256,"hostname":"LT-LP-001","reqId":"req-3","req":{"method":"POST","url":"/snapshot","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":51496},"msg":"incoming request"}
+[createBuild:debug] {"git":{"branch":"main","commitId":"bdf5dbc","commitMessage":"Adding script in package.json file","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""},"buildName":"","isStartExec":false,"packageVersion":"4.1.15","smartGit":false,"markBaseline":false,"baselineBuild":""}
+[createBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:23:55 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"958847cc3ea659ca-DEL"},"body":{"data":{"buildURL":"https://smartui.lambdatest.com/builds/01JZ0Y224C8GP78ZCXBR0BC8MR?searchBuild=smartui-c8e7e8de68","buildId":"740a5fff-0f21-4818-a192-b4dd71aad838","buildName":"smartui-c8e7e8de68","baseline":false,"gdprCompliance":false,"useKafkaFlow":true,"useDedicatedProxy":false,"removeHtmlComments":false}}}
+[exec:debug] {"level":30,"time":1751397854558,"pid":14324,"hostname":"LT-LP-001","reqId":"req-1","req":{"method":"GET","url":"/healthcheck","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":50923},"msg":"incoming request"}
+[exec:debug] {"level":30,"time":1751397854561,"pid":14324,"hostname":"LT-LP-001","reqId":"req-1","res":{"statusCode":200},"responseTime":1.8164999999571592,"msg":"request completed"}
+[exec:debug] {"level":30,"time":1751397854572,"pid":14324,"hostname":"LT-LP-001","reqId":"req-2","req":{"method":"GET","url":"/domserializer","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":50923},"msg":"incoming request"}
+[exec:debug] {"level":30,"time":1751397854574,"pid":14324,"hostname":"LT-LP-001","reqId":"req-2","res":{"statusCode":200},"responseTime":0.9452999997884035,"msg":"request completed"}
+[exec:debug] {"level":30,"time":1751397857036,"pid":14324,"hostname":"LT-LP-001","reqId":"req-3","req":{"method":"POST","url":"/snapshot","hostname":"localhost:49152","remoteAddress":"127.0.0.1","remotePort":50923},"msg":"incoming request"}
 [exec:debug] http request: GET /sessions/capabilities
-[exec:debug] {"git":{"branch":"main","commitId":"7c0707e","commitMessage":"New API added","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""}}
-[exec:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:55 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8233e430d14-DEL"},"body":{"id":"DA-MAC-1350616-1751382758388339786FUR","sessionId":"242ebfc73f6d10296d0cd32d5ff72668","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}}
-[exec:debug] fetch caps for sessionId: 242ebfc73f6d10296d0cd32d5ff72668 are {"id":"DA-MAC-1350616-1751382758388339786FUR","sessionId":"242ebfc73f6d10296d0cd32d5ff72668","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}
+[exec:debug] {"git":{"branch":"main","commitId":"bdf5dbc","commitMessage":"Adding script in package.json file","commitAuthor":"gagan-lambda","githubURL":"","baselineBranch":""},"config":{"web":{"browsers":["chrome","firefox"],"viewports":[{"width":1920,"height":0}]},"waitForPageRender":0,"waitForTimeout":1000,"waitForDiscovery":30000,"enableJavaScript":false,"cliEnableJavaScript":true,"scrollTime":8,"allowedHostnames":[],"allowedAssets":[],"smartIgnore":false,"delayedUpload":false,"useGlobalCache":false,"ignoreHTTPSErrors":false,"skipBuildCreation":false,"userAgent":""}}
+[exec:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:24:20 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9588486c9d3fdf7b-DEL"},"body":{"id":"DA-MAC-1350616-1751397842460085486VVW","sessionId":"2bff59ee66f0420d84d3e5624805fe9b","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}}
+[exec:debug] fetch caps for sessionId: 2bff59ee66f0420d84d3e5624805fe9b are {"id":"DA-MAC-1350616-1751397842460085486VVW","sessionId":"2bff59ee66f0420d84d3e5624805fe9b","resolution":"1920x1080","browser_name":"chrome","browser_version":"128.0","orgId":1350616,"baseline":true,"buildURL":"https://smartui.lambdatest.com/builds/?searchBuild=","useKafkaFlow":true}
 [exec:debug] Using local discovery
 [discovery:debug] Processing snapshot Flipkart1 https://www.flipkart.com/
-[discovery:debug] {"level":30,"time":1751382773354,"pid":24256,"hostname":"LT-LP-001","reqId":"req-3","res":{"statusCode":200},"responseTime":902.9007999999449,"msg":"request completed"}
+[discovery:debug] {"level":30,"time":1751397858194,"pid":14324,"hostname":"LT-LP-001","reqId":"req-3","res":{"statusCode":200},"responseTime":1157.2645999998786,"msg":"request completed"}
 [discovery:debug] Chromium launched with options {"headless":true,"args":["--disable-features=Translate,OptimizationGuideModelDownloading","--disable-background-networking","--disable-background-timer-throttling","--disable-renderer-backgrounding","--disable-backgrounding-occluded-windows","--disable-breakpad","--disable-client-side-phishing-detection","--disable-component-extensions-with-background-pages","--disable-default-apps","--disable-dev-shm-usage","--disable-extensions","--disable-hang-monitor","--disable-ipc-flooding-protection","--disable-notifications","--disable-prompt-on-repost","--disable-sync","--disable-site-isolation-trials","--no-first-run","--no-sandbox","--password-store=basic","--use-mock-keychain","--remote-debugging-port=0","--disable-blink-features=AutomationControlled","--disable-features=UserAgentClientHint"]}
 [discovery:debug] Browser context created with options {"javaScriptEnabled":true,"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.107 Safari/537.3","ignoreHTTPSErrors":false}
 [discovery:debug] Setting cookies for domain: www.flipkart.com
-[discovery:debug] Snapshot options: {"sessionId":"242ebfc73f6d10296d0cd32d5ff72668"}
+[discovery:debug] Snapshot options: {"sessionId":"2bff59ee66f0420d84d3e5624805fe9b"}
 [discovery:debug] Page resized to 1920x1080
 [discovery:debug] globalViewport : 1920
 [discovery:debug] Handling request https://www.flipkart.com/
@@ -67,46 +67,46 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8ff8ffb16eac0db3.jpg?q=80 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.css
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.css
- - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/b9a36367cdf39722.jpeg?q=80 fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.css
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.css
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.css
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.css
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/en-js.js
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.js
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg
- - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/lazyLoadChunk.css
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100 fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.css
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8ff8ffb16eac0db3.jpg?q=80
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.css
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/commonLazyLoadChunk.js
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.css
  - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100
+ - skipping remote resource
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100 fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MapiActionNonCriticalActions.css
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OmnitureLazyChunk.js
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.css
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100 fetching from server
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/b9a36367cdf39722.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/HomePageNonCriticalActions.js
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100
+[discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100 fetching from server
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100
+ - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/BaseActionNonCritical.js
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100
@@ -115,27 +115,31 @@ LambdaTest SmartUI CLI v4.1.15
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/OVHomePageTS.js
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_7pwm9nfte.svg+xml
- - skipping already cached resource
-[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/MultiWidgetpage.js
  - skipping remote resource
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_zebsxuzp8.svg+xml
+ - skipping already cached resource
+[discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_pbkjp7iqk.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_l82w1wqot.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg
  - skipping remote resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_wb4be9rwg.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_b799sbcd5.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg fetching from server
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkplus-4ff29a.svg
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg fetching from server
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_o4nibw3rm.svg+xml
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_9w3zgm089.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg
+ - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg fetching from server
@@ -143,6 +147,10 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg fetching from server
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg
+ - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100 fetching from server
@@ -150,16 +158,16 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/fkvendor.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5738158f6f0d7209.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/74f0ad81e44e6e6f.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/a69ee6556b3c87d3.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/app.js fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/fb28e3e1d22e6da2.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/14eb0fb178248c58.jpg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1338bd4fc60390d8.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=80 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/85964c6ee5076f5d.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2ad9256d47bff7ca.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/dress/o/y/a/s-hoc-dress-1050-house-of-common-original-imahdhhkwzq7eqqp.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/ethnic-set/1/e/q/s-204kbd2167ia-skylee-original-imahd6wrdeytgz3y.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/sandal/n/z/p/7-3093-40-40-paduki-pink-original-imah7wxkk4gzmfh4.jpeg?q=80 fetching from server
-[discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/shoe/q/w/7/6-jmd-507-org-6-6-visiter-orange-original-imah879mhqv8pjyc.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/120/120/image/d86351df4ed906f3.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/sari/x/n/m/free-crystal-wine-11-divine-fabrics-unstitched-original-imahcn86hpyvkbw8.jpeg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/image/120/120/xif0q/shirt/x/m/o/-original-imah77ntswmmb49w.jpeg?q=80 fetching from server
@@ -175,9 +183,9 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d89a0cd1fddfeb34.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9a1762cc3212ebf3.jpg?q=80 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cc9e48717aea42bf.jpg?q=80 fetching from server
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_m9hj49xyo.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_s2juwvm72.svg+xml
  - skipping already cached resource
-[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_gaxgsbbgd.svg+xml
+[discovery:debug] Handling request https://www.flipkart.com/__serialized__/_xg1wvsjuk.svg+xml
  - skipping already cached resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg fetching from server
@@ -187,106 +195,98 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.js fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/rewards-fbd212.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/orders-bfe8c4.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/giftCard-bd87e1.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg
- - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/downloadApp-2ea657.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/notificationPreferences-cfffaf.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/helpcenter-7d90c0.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.js
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-298691.svg
  - skipping remote resource
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2 fetching from server
 [discovery:debug] Resource not found in cache or global cache https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js fetching from server
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg
  - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-43f906.svg
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg
+ - skipping remote resource
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100
  - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100
+ - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/dress/o/y/a/s-hoc-dress-1050-house-of-common-original-imahdhhkwzq7eqqp.jpeg?q=80
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/ethnic-set/1/e/q/s-204kbd2167ia-skylee-original-imahd6wrdeytgz3y.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/a69ee6556b3c87d3.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/74f0ad81e44e6e6f.jpg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/sandal/n/z/p/7-3093-40-40-paduki-pink-original-imah7wxkk4gzmfh4.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/shoe/q/w/7/6-jmd-507-org-6-6-visiter-orange-original-imah879mhqv8pjyc.jpeg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/ethnic-set/1/e/q/s-204kbd2167ia-skylee-original-imahd6wrdeytgz3y.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/dress/o/y/a/s-hoc-dress-1050-house-of-common-original-imahdhhkwzq7eqqp.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/120/120/image/d86351df4ed906f3.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/sari/x/n/m/free-crystal-wine-11-divine-fabrics-unstitched-original-imahcn86hpyvkbw8.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/shirt/x/m/o/-original-imah77ntswmmb49w.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1338bd4fc60390d8.jpg?q=80
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/DesktopComponents.js
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/sari/x/n/m/free-crystal-wine-11-divine-fabrics-unstitched-original-imahcn86hpyvkbw8.jpeg?q=80
+[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/fkvendor.js
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/5738158f6f0d7209.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/x/v/z/-original-imah28xpzzwz4fwg.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/w/w/h/-original-imahc7ezhz9qxm6d.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/120/120/image/d86351df4ed906f3.jpg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/14eb0fb178248c58.jpg?q=80
- - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/s/v/h/-original-imahd57g62dfepkh.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/9/b/n/-original-imah3afnqj84usyy.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d89a0cd1fddfeb34.jpg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/t/k/h/-original-imah7jsppzwb9qb3.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/q/n/s/-original-imah4jyfrgsbebg9.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/m/3/k/-original-imahbqxnuhznhsj4.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cc9e48717aea42bf.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/q/n/s/-original-imah4jyfrgsbebg9.jpeg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/530/810/image/00f0871e94d2aa69.png?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/9/b/n/-original-imah3afnqj84usyy.jpeg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9a1762cc3212ebf3.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=80
  - skipping remote resource
-[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/fb28e3e1d22e6da2.jpg?q=80
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/85964c6ee5076f5d.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d89a0cd1fddfeb34.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/cc9e48717aea42bf.jpg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/image/120/120/xif0q/mobile/t/k/h/-original-imah7jsppzwb9qb3.jpeg?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/530/810/image/00f0871e94d2aa69.png?q=80
+ - skipping remote resource
+[discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9a1762cc3212ebf3.jpg?q=80
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2
  - skipping remote resource
 [discovery:debug] Handling request https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/2ad9256d47bff7ca.jpg?q=80
- - skipping remote resource
-[discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/fkvendor.js
  - skipping remote resource
 [discovery:debug] Handling request https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/e4ed28f4ba7e9151eaa7f197d088ff67/CrossCommon.js
  - skipping remote resource
@@ -315,52 +315,52 @@ LambdaTest SmartUI CLI v4.1.15
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js fetching from server
 [discovery:debug] Resource not found in cache or global cache https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js fetching from server
-[discovery:debug] Handling request https://js-agent.newrelic.com/148.1a20d5fe-1.236.0.min.js
- - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/page_view_event-aggregate.06482edd-1.236.0.min.js
+ - skipping remote resource
+[discovery:debug] Handling request https://js-agent.newrelic.com/148.1a20d5fe-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/page_view_timing-aggregate.bd6de33a-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1222&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=30&fe=1050&dc=1010&perf=%7B%22timing%22:%7B%22of%22:1751382773601,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:30,%22rpe%22:30,%22di%22:753,%22ds%22:1040,%22de%22:1040,%22dc%22:1076,%22l%22:1076,%22le%22:1079%7D,%22navigation%22:%7B%7D%7D&fp=784&fcp=784 fetching from server
+[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1071&ck=0&s=829dc8095c0716c0&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=23&fe=957&dc=951&perf=%7B%22timing%22:%7B%22of%22:1751397858452,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:23,%22rpe%22:23,%22di%22:748,%22ds%22:974,%22de%22:974,%22dc%22:976,%22l%22:976,%22le%22:980%7D,%22navigation%22:%7B%7D%7D&fp=712&fcp=712 fetching from server
 [discovery:debug] Handling request https://js-agent.newrelic.com/metrics-aggregate.3dc53903-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Handling request https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js
+[discovery:debug] Handling request https://js-agent.newrelic.com/jserrors-aggregate.49e41428-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/ajax-aggregate.998ef92b-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Handling request https://js-agent.newrelic.com/jserrors-aggregate.49e41428-1.236.0.min.js
+[discovery:debug] Handling request https://js-agent.newrelic.com/page_action-aggregate.ac76d497-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/session_trace-aggregate.83105561-1.236.0.min.js
  - skipping remote resource
 [discovery:debug] Handling request https://js-agent.newrelic.com/spa-aggregate.e6b09d52-1.236.0.min.js
  - skipping remote resource
-[discovery:debug] Handling request https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1222&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=30&fe=1050&dc=1010&perf=%7B%22timing%22:%7B%22of%22:1751382773601,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:30,%22rpe%22:30,%22di%22:753,%22ds%22:1040,%22de%22:1040,%22dc%22:1076,%22l%22:1076,%22le%22:1079%7D,%22navigation%22:%7B%7D%7D&fp=784&fcp=784
+[discovery:debug] Handling request https://bam.nr-data.net/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1071&ck=0&s=829dc8095c0716c0&ref=https://www.flipkart.com/&af=err,xhr,stn,ins,spa&be=23&fe=957&dc=951&perf=%7B%22timing%22:%7B%22of%22:1751397858452,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22s%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:23,%22rpe%22:23,%22di%22:748,%22ds%22:974,%22de%22:974,%22dc%22:976,%22l%22:976,%22le%22:980%7D,%22navigation%22:%7B%7D%7D&fp=712&fcp=712
  - skipping remote resource
-[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1994&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/ fetching from server
-[discovery:debug] Handling request https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1994&ck=0&s=26891487f5e41e08&ref=https://www.flipkart.com/
+[discovery:debug] Resource not found in cache or global cache https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1420&ck=0&s=829dc8095c0716c0&ref=https://www.flipkart.com/ fetching from server
+[discovery:debug] Handling request https://bam.nr-data.net/events/1/NRJS-dd5f16cdf95712c6cba?a=1588759528&sa=1&v=1.236.0&t=Unnamed%20Transaction&rst=1420&ck=0&s=829dc8095c0716c0&ref=https://www.flipkart.com/
  - skipping remote resource
 [discovery:debug] Navigated to https://www.flipkart.com/
 [discovery:debug] Network idle 500ms
-[discovery:debug] Processed options: {"sessionId":"242ebfc73f6d10296d0cd32d5ff72668","testId":"DA-MAC-1350616-1751382758388339786FUR"}
+[discovery:debug] Processed options: {"sessionId":"2bff59ee66f0420d84d3e5624805fe9b","testId":"DA-MAC-1350616-1751397842460085486VVW"}
 [discovery:debug] http request: POST /snapshotuploadurl
-[discovery:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","snapshotName":"Flipkart1","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc"}
-[discovery:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48","snapshotName":"Flipkart1","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc"}
-[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:12:59 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"9586d844b89c0d14-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/dom/Flipkart1_53076774-25ea-458e-9a7a-077e04fa39bc.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX66M2EPSAG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151259Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCYcrCjuIQqdzgeNDu%2FVksCfLKoPvDmVlRDMEuSIw3cTAIhAK3qhmDNYURjUV51ZGe2rkp%2Bd1c%2FGAdQAKjmPxCx653DKocFCNj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igz16p21nWG7FkSPH2sq2wTpZewRdlOOyfAt4vr9kpQRSBVGkMzRZYVuO8VDiyUptRLI08NrdUTFy2heNKxJ6SnfdjpQPdwak6VAL2a8EvyMHxzQMKSrEGHMTqqfzDWlH94D%2BEmb%2Bg4LwybHryApKgYJ%2BM0%2FkXzmRI%2BYOQk4wQbVi%2FgXJb9WbXD1xFl3IgbAxAaLqiPCHTtKTP%2BnM5IHF0rEODB4eDDdQilKqcavmphWzfZb7oQB%2FnwBQ5OJ5VRI1lvbxk6dJhkV4xnc%2FRcQjBNaAQMS98fUd3oIkb8Z0fz88fdKq7zlNy0F8F9ymY2tHEgpJsMuoL9Nj%2FNvgUqtmZe3AsMz5iqRUHn8bntdNkRyvpOz%2BvdFZm3WiKyEqwFYqfbGM90nsR%2F%2Bi4anUEw55ypW1nRjhd4%2B8aHWJl2umonhUA6Jl84Rlx0J8%2BssbdkL4Saf2aAbvx26nGH3BhHpzEjfX24ZcDQctZAs5nrhEepBawvF2kWYL7CBGOsDyiXNVDBs2MZgdahJuX4RQR9HqIXEOmffmDySghJ%2BNwMgA7%2Bjhra14elTPmEwoF9REvz3j9hmOF9F2budwmjLdKJvwZ%2Bdi984kmKgjWZogslUiqgno8xvv%2BZcKx5D5JJiRPQrPkzC2Qc9t2kFM8Pu5EbcO5eOPceCzYhHDEsTYm8YCt8ESR7vR%2FhJ45qQvlxBVrErjZraTZSEw4RV%2BH6Xj4uy1JIOGofBOV75XYRQIhWfQUYWVZC%2BGbdGx3bdJUJwdGfrHgi1FXl6LxhU6A9inzP8p8SFrzZZx67eSAQ%2FW3Nff%2BZNR0bzckC8K4vkMVYw%2B%2FWPwwY6mQEo4Y%2FNUgLVT8JLWtZWvL4xofPFfdGJNJwA9EPzK0oYmwa5kmRNqcJ1GedKZrFk21l9iIO0znNyt%2B61ENucWBMDL76t01golFxkgwqcUs9F9Su%2BKltMaANc80ku9fI72a%2BtMWPvUAx1Ke7Iet%2B%2FiK7C8po%2B9dTy8ZFGvpwFDTykfqELz6zn%2FY6ttGBGeI0oSOgo7NmYTdhcFAI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=df94de80f899353ec59af7c36ddecdac8b5e629cafcc2af1b37e2a932bd3ef5a"}}}
-[discovery:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/dom/Flipkart1_53076774-25ea-458e-9a7a-077e04fa39bc.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX66M2EPSAG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151259Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCYcrCjuIQqdzgeNDu%2FVksCfLKoPvDmVlRDMEuSIw3cTAIhAK3qhmDNYURjUV51ZGe2rkp%2Bd1c%2FGAdQAKjmPxCx653DKocFCNj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjQ1MjE0NjA2ODQ1Igz16p21nWG7FkSPH2sq2wTpZewRdlOOyfAt4vr9kpQRSBVGkMzRZYVuO8VDiyUptRLI08NrdUTFy2heNKxJ6SnfdjpQPdwak6VAL2a8EvyMHxzQMKSrEGHMTqqfzDWlH94D%2BEmb%2Bg4LwybHryApKgYJ%2BM0%2FkXzmRI%2BYOQk4wQbVi%2FgXJb9WbXD1xFl3IgbAxAaLqiPCHTtKTP%2BnM5IHF0rEODB4eDDdQilKqcavmphWzfZb7oQB%2FnwBQ5OJ5VRI1lvbxk6dJhkV4xnc%2FRcQjBNaAQMS98fUd3oIkb8Z0fz88fdKq7zlNy0F8F9ymY2tHEgpJsMuoL9Nj%2FNvgUqtmZe3AsMz5iqRUHn8bntdNkRyvpOz%2BvdFZm3WiKyEqwFYqfbGM90nsR%2F%2Bi4anUEw55ypW1nRjhd4%2B8aHWJl2umonhUA6Jl84Rlx0J8%2BssbdkL4Saf2aAbvx26nGH3BhHpzEjfX24ZcDQctZAs5nrhEepBawvF2kWYL7CBGOsDyiXNVDBs2MZgdahJuX4RQR9HqIXEOmffmDySghJ%2BNwMgA7%2Bjhra14elTPmEwoF9REvz3j9hmOF9F2budwmjLdKJvwZ%2Bdi984kmKgjWZogslUiqgno8xvv%2BZcKx5D5JJiRPQrPkzC2Qc9t2kFM8Pu5EbcO5eOPceCzYhHDEsTYm8YCt8ESR7vR%2FhJ45qQvlxBVrErjZraTZSEw4RV%2BH6Xj4uy1JIOGofBOV75XYRQIhWfQUYWVZC%2BGbdGx3bdJUJwdGfrHgi1FXl6LxhU6A9inzP8p8SFrzZZx67eSAQ%2FW3Nff%2BZNR0bzckC8K4vkMVYw%2B%2FWPwwY6mQEo4Y%2FNUgLVT8JLWtZWvL4xofPFfdGJNJwA9EPzK0oYmwa5kmRNqcJ1GedKZrFk21l9iIO0znNyt%2B61ENucWBMDL76t01golFxkgwqcUs9F9Su%2BKltMaANc80ku9fI72a%2BtMWPvUAx1Ke7Iet%2B%2FiK7C8po%2B9dTy8ZFGvpwFDTykfqELz6zn%2FY6ttGBGeI0oSOgo7NmYTdhcFAI%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=df94de80f899353ec59af7c36ddecdac8b5e629cafcc2af1b37e2a932bd3ef5a
-[discovery:debug] http response: {"status":200,"headers":{"x-amz-id-2":"CNKbr+ID1J1YYlGyMqvG3d5i7usXyMDCVUYvGq6OKih8dK3WoJeWOYNuZKvKXu17Lp8IBOdGuPU=","x-amz-request-id":"YTCXWPXYKDJ9P6GT","date":"Tue, 01 Jul 2025 15:13:05 GMT","x-amz-version-id":"lxGSYDsiZfz9ha.cBWVeWgfO1QvEGbJH","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"57f5b73825043766126e1dfbcc92a6d7\"","x-amz-checksum-crc64nvme":"KXu1JzNh7aw=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
-[discovery:debug] http request: POST /build/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/snapshot
-[discovery:debug] {"name":"Flipkart1","url":"https://www.flipkart.com/","snapshotUuid":"53076774-25ea-458e-9a7a-077e04fa39bc","test":{"type":"lambdatest-java-sdk","source":"cli"},"discoveryErrors":{"name":"Flipkart1","url":"https://www.flipkart.com/","timestamp":"","snapshotUUID":"","browsers":{}}}
-[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:05 GMT","content-type":"application/json","content-length":"31","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8629acb0d14-DEL"},"body":{"data":{"message":"success"}}}
+[discovery:debug] {"buildId":"740a5fff-0f21-4818-a192-b4dd71aad838","snapshotName":"Flipkart1","snapshotUuid":"7eb6d144-4810-4847-a0f5-f1c52cef57c5"}
+[discovery:debug] {"buildId":"740a5fff-0f21-4818-a192-b4dd71aad838","snapshotName":"Flipkart1","snapshotUuid":"7eb6d144-4810-4847-a0f5-f1c52cef57c5"}
+[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:24:25 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"9588488f198ddf7b-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/740a5fff-0f21-4818-a192-b4dd71aad838/dom/Flipkart1_7eb6d144-4810-4847-a0f5-f1c52cef57c5.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX67A67A6WV%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T192424Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIDyHOMBa0VH9sdW8hZb38UB3nhRq7LyQBMAmHZlfKqS2AiEA3g8M3yj47VlwdXilLg3dfnQiMAhKbNVa%2F9LBayioVpUqhwUI3f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDEJBWw6254XWZBiFeCrbBML2TCHH4YtOLKXXmiJ%2BEkSjr9tLDnmLk3%2FXPr6X4V%2Bo2aI89lm7tsBpATfQqCnt%2FKmJHj4fXIz3efCJJNaMIOVKotFRsiZiYXoCi0nbyy1XpNIg719TP5Xq%2BSsYeC8g7B5dcp85ukKuaehx%2F53%2FTwunBZPA7fM0gHlCjJ8Bs5%2BjU4WQrI%2BJWe2DJifnCGDMZ0g6wOdj%2FS3JdjY8%2Bq8ogix6Zxww0MBK4qDIUrX3QGucyaNaq6S9l8jW%2FS14ox0eInImGO3ItbuZUqwkWVh7FphrUE4L4fxpTvVh2KlwJMPvDRyB%2BjvB4z6E%2FG%2FZBv479kHhuEH5AlIcsR3%2BzJ6vwC63Voiu9X7A6e%2Fz3R8cOQ3U9zXluB0GgwUh2oIzTkIpcVBCCGa4zue37JQDvRd5yjxgj%2BepW7jjugWEFUNbsf0Q4smcUpCxuJThzVpcuDkdMlRi3x3n99thjWhDoyZ%2Bjl3DwKeJt2HLETittm5Q2tIKPk6vdqc9m8obzYzIKFbwavVE8YO3NmjtLNBwql95mWTtZ5vXn2hVa60m5Pdkhr9FBzE%2Fr%2F6BzHy19%2BqwlZDNPsejzChLO7PNG%2BogH5OgR%2BJemMxL4Dvf34DaUqfU9tI3%2Bqk1kh%2BGHRuvPIx3bqVYhoqaZAXZ7g0TsQtvfDAfgAhiyXlgkgEGGsUbK4LPxLG7WVTR0LtxdJ%2BlB4Ah4xlJx1cRu4Y9WtMFeBFK4ZHixJ3nWrkAZijjxNYx5jOU8ZCmojUHDK874zSbUZVBjSHazJBQqAj9E98x%2BI1asfu9%2Fo%2FoiVYXaFzdqjJcOzDo65DDBjqaAYNuXeqUiXtPNVQw1ClnyPRT8EpF1C6tzyGbCZ1QmNm4VUzokLYUZ3viFjOGN243Oz0I2eL%2BePfIdRXvAgVz8mf6gjXl6wgOv%2B1xM6dW%2BOXps3VyFfU%2BEruwfAax2Rp5M8XLOgVEjGkAj50fDJ%2FagtCzB5gIM6F4clRvdzweWwxDciKMcuqyBrZwd8g7s%2B%2FcErOJYvnwEOXWC4k%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3b06dfbcad19944604e5e8045a5554e0036cfc2c071938bba7568f0e559d08ec"}}}
+[discovery:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/740a5fff-0f21-4818-a192-b4dd71aad838/dom/Flipkart1_7eb6d144-4810-4847-a0f5-f1c52cef57c5.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX67A67A6WV%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T192424Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIDyHOMBa0VH9sdW8hZb38UB3nhRq7LyQBMAmHZlfKqS2AiEA3g8M3yj47VlwdXilLg3dfnQiMAhKbNVa%2F9LBayioVpUqhwUI3f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDEJBWw6254XWZBiFeCrbBML2TCHH4YtOLKXXmiJ%2BEkSjr9tLDnmLk3%2FXPr6X4V%2Bo2aI89lm7tsBpATfQqCnt%2FKmJHj4fXIz3efCJJNaMIOVKotFRsiZiYXoCi0nbyy1XpNIg719TP5Xq%2BSsYeC8g7B5dcp85ukKuaehx%2F53%2FTwunBZPA7fM0gHlCjJ8Bs5%2BjU4WQrI%2BJWe2DJifnCGDMZ0g6wOdj%2FS3JdjY8%2Bq8ogix6Zxww0MBK4qDIUrX3QGucyaNaq6S9l8jW%2FS14ox0eInImGO3ItbuZUqwkWVh7FphrUE4L4fxpTvVh2KlwJMPvDRyB%2BjvB4z6E%2FG%2FZBv479kHhuEH5AlIcsR3%2BzJ6vwC63Voiu9X7A6e%2Fz3R8cOQ3U9zXluB0GgwUh2oIzTkIpcVBCCGa4zue37JQDvRd5yjxgj%2BepW7jjugWEFUNbsf0Q4smcUpCxuJThzVpcuDkdMlRi3x3n99thjWhDoyZ%2Bjl3DwKeJt2HLETittm5Q2tIKPk6vdqc9m8obzYzIKFbwavVE8YO3NmjtLNBwql95mWTtZ5vXn2hVa60m5Pdkhr9FBzE%2Fr%2F6BzHy19%2BqwlZDNPsejzChLO7PNG%2BogH5OgR%2BJemMxL4Dvf34DaUqfU9tI3%2Bqk1kh%2BGHRuvPIx3bqVYhoqaZAXZ7g0TsQtvfDAfgAhiyXlgkgEGGsUbK4LPxLG7WVTR0LtxdJ%2BlB4Ah4xlJx1cRu4Y9WtMFeBFK4ZHixJ3nWrkAZijjxNYx5jOU8ZCmojUHDK874zSbUZVBjSHazJBQqAj9E98x%2BI1asfu9%2Fo%2FoiVYXaFzdqjJcOzDo65DDBjqaAYNuXeqUiXtPNVQw1ClnyPRT8EpF1C6tzyGbCZ1QmNm4VUzokLYUZ3viFjOGN243Oz0I2eL%2BePfIdRXvAgVz8mf6gjXl6wgOv%2B1xM6dW%2BOXps3VyFfU%2BEruwfAax2Rp5M8XLOgVEjGkAj50fDJ%2FagtCzB5gIM6F4clRvdzweWwxDciKMcuqyBrZwd8g7s%2B%2FcErOJYvnwEOXWC4k%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3b06dfbcad19944604e5e8045a5554e0036cfc2c071938bba7568f0e559d08ec
+[discovery:debug] http response: {"status":200,"headers":{"x-amz-id-2":"5Hw1sPIs1ARfuuv4rFcOl9L6qVlga5ZtILZNJoV1pb2p5ruI6aTm1440qs0GuQ4Up4SU6JBqxPU=","x-amz-request-id":"XENTQWHRW2C4R1FP","date":"Tue, 01 Jul 2025 19:24:30 GMT","x-amz-version-id":"nWFu8nI7pOLx_GJKT.Dvo2w0Df.6Wpws","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"67e179720c17a1f434a935e7cd60bea4\"","x-amz-checksum-crc64nvme":"c+zWgMWfoPE=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
+[discovery:debug] http request: POST /build/740a5fff-0f21-4818-a192-b4dd71aad838/snapshot
+[discovery:debug] {"name":"Flipkart1","url":"https://www.flipkart.com/","snapshotUuid":"7eb6d144-4810-4847-a0f5-f1c52cef57c5","test":{"type":"lambdatest-java-sdk","source":"cli"},"discoveryErrors":{"name":"Flipkart1","url":"https://www.flipkart.com/","timestamp":"","snapshotUUID":"","browsers":{}}}
+[discovery:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:24:30 GMT","content-type":"application/json","content-length":"31","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"958848acf926df7b-DEL"},"body":{"data":{"message":"success"}}}
 [discovery:debug] Closed browser page for snapshot Flipkart1
 [discovery:debug] Closed browser context for snapshot Flipkart1
 [finalizeBuild:debug] http request: DELETE /build
-[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:30 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9586d8ff4cac96b4-DEL"},"body":{"data":{"message":"Build finalized successfully"}}}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:24:56 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","server":"cloudflare","cf-ray":"9588494c4f58198e-DEL"},"body":{"data":{"message":"Build finalized successfully"}}}
 [finalizeBuild:debug] Closed browser
 [finalizeBuild:debug] Closed server
 [finalizeBuild:debug] Log file to be uploaded
 [finalizeBuild:debug] http request: POST /loguploadurl
-[finalizeBuild:debug] {"buildId":"aa77ab8b-35fa-4ac2-9d79-84038ebbea48"}
-[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 15:13:31 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"9586d907cf3d96b4-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/cli-11cba79b-a8c0-47fc-856b-b7f3d5c79009.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6V6COB2FZ%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151330Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFWnPAFCTeqG2I1cBdpoPUbW6t0g%2BxgoRpja82ZYMvlzAiEArR3N2Zhvw9IWJCu4ZSLz3OznbZBIuU4afrwONi7%2FdL0qhwUI2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDP1DRimgl3ggA7IfirbBBkJsNlbWRM2J%2FfGGyOKeGJAOCb5iX3Et0Qh3mP2EsgIKqxtEMXwbCTLMM5a%2FI2jK%2Fg6VPaBOWGlzO5cf1%2Bniu4rQPxay0mjlHDU5Vvt579LdnrQt64zDE61MwF8ntuWOU8BfwXSPEpMrFtgOZQewX3XVFRgzyK0Nu5sRXvJ94NvmJliUawGhbntyXqLpgR3nyx%2BrjH43iMFQ6SHUETXu3HvT5EwN%2B26sfkCZTlwgytu0yeUlB%2BPpX%2Bw2BZHGMzJfgcMgL2IJe82tzlWVxdU7bTKasHncEEX3w5HvYljZS10hlHer3iP%2F79GX0bGyLxT9O7ijKvHTolyMVle8wAohshcnwyzfno%2BEofQmKxBi%2FfgLv23Kbpa9JZTrBqxDsGV2erUWUSUonkwi9XbOEl1UO5XKxCzayea7Dov5BXjaAhPWMBYMG4jCuTGBPtJZ1RiIeFy3it%2But%2BzksiVrXUJ9TDmXvn%2FmiOxEDOcilfxYLAhwzMkwLfXwNnxMKSOzPefNfutv8GEHolLMriP%2BJgkaB7PRWlAjorqsKY4uVq4bwY6v1DWsNza9fC5GCc4UezHu6cq1JoMBVV8AFknAICEjsBj2Tdhwpi8IDI1r9W61CdBYInD8jm8O1PUF44m2JQF15QrU2YKaB%2B%2Fn%2FxlRy0pPv8PtiaNu62N38prSLQCopVGXGv5RaDdtbJ31skA%2FCF1OkshXcpImo6KomoYucMzvluBGZL3Tj64jdiEBcDV2maBWTuXX%2FEC4AN6hzCSCEyB67O4qDtP7dvFChf2Vq8fs7jcGAOXyCh4gfnH1DCa9o%2FDBjqaAVXHKF6EgZkEQnXiYOdfnPmVGl%2FP4ShaMAp4GYKI%2FFKIA4Iy7rwTxCs%2FWiNP5hKmt%2F92SNWGOCer6rG6Gd%2BxXxFs0yAfC9Ozeilqg%2F%2Bm5hAn8dBcNkhRunUwuomTzQndT26cRrRWJ8W6KQZAQI4WBZ13SnpMGJb9J2AcSBPCkzhPLoaX%2Fwn%2BGmOL%2F4ctbGPHTQnifGGVcJAS6n4%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b8532e521b701695b2fb90fb8a1abd055510bfe9b771f74500a36996f316c52c"}}}
-[finalizeBuild:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/aa77ab8b-35fa-4ac2-9d79-84038ebbea48/cli-11cba79b-a8c0-47fc-856b-b7f3d5c79009.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX6V6COB2FZ%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T151330Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFWnPAFCTeqG2I1cBdpoPUbW6t0g%2BxgoRpja82ZYMvlzAiEArR3N2Zhvw9IWJCu4ZSLz3OznbZBIuU4afrwONi7%2FdL0qhwUI2P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDDP1DRimgl3ggA7IfirbBBkJsNlbWRM2J%2FfGGyOKeGJAOCb5iX3Et0Qh3mP2EsgIKqxtEMXwbCTLMM5a%2FI2jK%2Fg6VPaBOWGlzO5cf1%2Bniu4rQPxay0mjlHDU5Vvt579LdnrQt64zDE61MwF8ntuWOU8BfwXSPEpMrFtgOZQewX3XVFRgzyK0Nu5sRXvJ94NvmJliUawGhbntyXqLpgR3nyx%2BrjH43iMFQ6SHUETXu3HvT5EwN%2B26sfkCZTlwgytu0yeUlB%2BPpX%2Bw2BZHGMzJfgcMgL2IJe82tzlWVxdU7bTKasHncEEX3w5HvYljZS10hlHer3iP%2F79GX0bGyLxT9O7ijKvHTolyMVle8wAohshcnwyzfno%2BEofQmKxBi%2FfgLv23Kbpa9JZTrBqxDsGV2erUWUSUonkwi9XbOEl1UO5XKxCzayea7Dov5BXjaAhPWMBYMG4jCuTGBPtJZ1RiIeFy3it%2But%2BzksiVrXUJ9TDmXvn%2FmiOxEDOcilfxYLAhwzMkwLfXwNnxMKSOzPefNfutv8GEHolLMriP%2BJgkaB7PRWlAjorqsKY4uVq4bwY6v1DWsNza9fC5GCc4UezHu6cq1JoMBVV8AFknAICEjsBj2Tdhwpi8IDI1r9W61CdBYInD8jm8O1PUF44m2JQF15QrU2YKaB%2B%2Fn%2FxlRy0pPv8PtiaNu62N38prSLQCopVGXGv5RaDdtbJ31skA%2FCF1OkshXcpImo6KomoYucMzvluBGZL3Tj64jdiEBcDV2maBWTuXX%2FEC4AN6hzCSCEyB67O4qDtP7dvFChf2Vq8fs7jcGAOXyCh4gfnH1DCa9o%2FDBjqaAVXHKF6EgZkEQnXiYOdfnPmVGl%2FP4ShaMAp4GYKI%2FFKIA4Iy7rwTxCs%2FWiNP5hKmt%2F92SNWGOCer6rG6Gd%2BxXxFs0yAfC9Ozeilqg%2F%2Bm5hAn8dBcNkhRunUwuomTzQndT26cRrRWJ8W6KQZAQI4WBZ13SnpMGJb9J2AcSBPCkzhPLoaX%2Fwn%2BGmOL%2F4ctbGPHTQnifGGVcJAS6n4%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b8532e521b701695b2fb90fb8a1abd055510bfe9b771f74500a36996f316c52c
+[finalizeBuild:debug] {"buildId":"740a5fff-0f21-4818-a192-b4dd71aad838"}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"date":"Tue, 01 Jul 2025 19:24:56 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"keep-alive","access-control-allow-methods":"GET, POST, PUT, OPTIONS,PATCH","access-control-allow-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range,Authorization,username,traceparent,tracestate","access-control-expose-headers":"Pragma,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range","cf-cache-status":"DYNAMIC","vary":"accept-encoding","server":"cloudflare","cf-ray":"958849547980198e-DEL"},"body":{"data":{"url":"https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/740a5fff-0f21-4818-a192-b4dd71aad838/cli-d811090d-9c35-4763-816a-4ce6dcb2d160.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX657LSXAKG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T192456Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIAxx5iapHiMcAJFr6gjwGkPdv54Lpd7NejNYk7rpB8%2BXAiEA70JjV4GJQkC948nwiccjdAwNbU1P51I2SeSuk4%2FOc14qhwUI3f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDCkNs3D%2B0BXz8mNadSrbBCS5azmLyPmula0UAuVc%2BP%2B4MQsX6AIImxKbQVjtPy6F4NaA2gfJIogozGmAl5KIBf2PhcWVz69nlmr6ewLb65%2BSQWqKBjy1Q5YG%2FnX7pmkUfmZubiCJtmTfWNE2s%2FR8weozIpeFMrYZ1xhj5GXRAd9deokq11JNMa9pPr%2BA7Pp%2F9DFjKIrinRpqgTXVcDEjfRHlPWHFE2GOiw1Pw0xbhpgWl1puLb0l6sQ4HaQckdjG8rNWfOLFxRFajnv5YZtTjhPJj%2F6nrcKE1%2BBdKromxe7jMSUgNuqvMQ667icQyp8zyLsoyWs2mg%2FAryf%2FcMom3jVJ%2FYAEssyREfBsePWhnPcXjl7BmMiaTZv1%2FvYJdJ0MCFroGr0pIptAMBg68Qj8joaHHypTs8E5Evf7WrYKqgCM4BWc%2FQ0w9PxWitUAdvMon9GpPlDmPWWLcq1JTUYu1jZOwbgtH9coyQtvFvldp%2FylzqpcrTqUlRlzcID1zBhaZXPPvsDOuR4VL8TnCYo2TaJA4wOXzoSunWc8l6WfKj2gc5JrpB3IOUeo7W2wkWjJlvC0kEm6bJJnuXGBDCc8TZ7Zmdme3am7sk0CfhY0yCCKz4O59olNTvBPIOFKQMu03ZdRKK83MZtUhfO0KwvJvLXWKzoxauhXwyacQQDZWriIOGDTb6eW4xyqYCf8kFGixJxUSXI5hFi5SclzBlGZCziNmH3ofql6S%2FestGNidmH27RDjAHsaeW5njejErlHS95uf5tTrIsjMmqPb%2B6A3wABLHKdd08zpAZ5R3kyDI6KYAoWuLay6lGu3FTCI7JDDBjqaAdc2RD0xs%2FmzCRKRXXooeZ5zMx%2BE5IRHVNVMOEEuDwAnjFHhuzvvwJY7pOSQocpQUwYeCsviw47PxnKsqAS7P7pU8U2zQixEveiPbaelBgkQi4JN%2F1eKn6QF7TRP%2BVVzsV58R%2B8SriaDUjIydwaRsZG2ODK6%2F15GWi5qbLbzfdxZnAYkT6F23f47EG4PvlhaJ3c7VW4rhAHACYg%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c183aa9851dd4a3f02f864da56bbf2a3bfd7586e49f1c1bae8f60b00b23c91db"}}}
+[finalizeBuild:debug] http request: PUT https://prod-magicleap-dotlapse-artefact-v1.s3.amazonaws.com/org-1350616/01JZ0Y224C8GP78ZCXBR0BC8MR/740a5fff-0f21-4818-a192-b4dd71aad838/cli-d811090d-9c35-4763-816a-4ce6dcb2d160.log?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAZMOOJSX657LSXAKG%2F20250701%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T192456Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIAxx5iapHiMcAJFr6gjwGkPdv54Lpd7NejNYk7rpB8%2BXAiEA70JjV4GJQkC948nwiccjdAwNbU1P51I2SeSuk4%2FOc14qhwUI3f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2NDUyMTQ2MDY4NDUiDCkNs3D%2B0BXz8mNadSrbBCS5azmLyPmula0UAuVc%2BP%2B4MQsX6AIImxKbQVjtPy6F4NaA2gfJIogozGmAl5KIBf2PhcWVz69nlmr6ewLb65%2BSQWqKBjy1Q5YG%2FnX7pmkUfmZubiCJtmTfWNE2s%2FR8weozIpeFMrYZ1xhj5GXRAd9deokq11JNMa9pPr%2BA7Pp%2F9DFjKIrinRpqgTXVcDEjfRHlPWHFE2GOiw1Pw0xbhpgWl1puLb0l6sQ4HaQckdjG8rNWfOLFxRFajnv5YZtTjhPJj%2F6nrcKE1%2BBdKromxe7jMSUgNuqvMQ667icQyp8zyLsoyWs2mg%2FAryf%2FcMom3jVJ%2FYAEssyREfBsePWhnPcXjl7BmMiaTZv1%2FvYJdJ0MCFroGr0pIptAMBg68Qj8joaHHypTs8E5Evf7WrYKqgCM4BWc%2FQ0w9PxWitUAdvMon9GpPlDmPWWLcq1JTUYu1jZOwbgtH9coyQtvFvldp%2FylzqpcrTqUlRlzcID1zBhaZXPPvsDOuR4VL8TnCYo2TaJA4wOXzoSunWc8l6WfKj2gc5JrpB3IOUeo7W2wkWjJlvC0kEm6bJJnuXGBDCc8TZ7Zmdme3am7sk0CfhY0yCCKz4O59olNTvBPIOFKQMu03ZdRKK83MZtUhfO0KwvJvLXWKzoxauhXwyacQQDZWriIOGDTb6eW4xyqYCf8kFGixJxUSXI5hFi5SclzBlGZCziNmH3ofql6S%2FestGNidmH27RDjAHsaeW5njejErlHS95uf5tTrIsjMmqPb%2B6A3wABLHKdd08zpAZ5R3kyDI6KYAoWuLay6lGu3FTCI7JDDBjqaAdc2RD0xs%2FmzCRKRXXooeZ5zMx%2BE5IRHVNVMOEEuDwAnjFHhuzvvwJY7pOSQocpQUwYeCsviw47PxnKsqAS7P7pU8U2zQixEveiPbaelBgkQi4JN%2F1eKn6QF7TRP%2BVVzsV58R%2B8SriaDUjIydwaRsZG2ODK6%2F15GWi5qbLbzfdxZnAYkT6F23f47EG4PvlhaJ3c7VW4rhAHACYg%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c183aa9851dd4a3f02f864da56bbf2a3bfd7586e49f1c1bae8f60b00b23c91db
 [finalizeBuild:debug] {"fd":null,"path":".smartui.log","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":1}
-[finalizeBuild:debug] http response: {"status":200,"headers":{"x-amz-id-2":"t+WEM01mhcNEtF1rudiRo7rys31iPHiFk6Clvtwpzdvqn0dPRDtCjM1uW+W3XJ49w26ix8pkGskLVp1xAQr1Aw==","x-amz-request-id":"2D49YTKYGSZGFP6H","date":"Tue, 01 Jul 2025 15:13:35 GMT","x-amz-version-id":"_3z0INPGCeMt2lUzHJxSXgXGcz0Chox2","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"816abd8ee430770b9ed34750b9c5cb8e\"","x-amz-checksum-crc64nvme":"moaCvGDfTlg=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
+[finalizeBuild:debug] http response: {"status":200,"headers":{"x-amz-id-2":"68djh9mO0jxNAdA6wIjkH3g0TQc9nMsojARO7Z3h4CNRMl5VPLexJBUgpQCARZlJHxIHeD6NENJCeOb6aqFAdouM+hak3I+u6KGLjFIXgwQ=","x-amz-request-id":"JN3ZYTQQAJAV2WKB","date":"Tue, 01 Jul 2025 19:24:58 GMT","x-amz-version-id":"5s1GzM8PDnvnwo2TYUkbONyXQcgwlJgn","x-amz-expiration":"expiry-date=\"Thu, 02 Jul 2026 00:00:00 GMT\", rule-id=\"tf-s3-lifecycle-20230128083555273900000001\"","x-amz-server-side-encryption":"AES256","etag":"\"ecbd257759f2bc5b0efab9a081d29082\"","x-amz-checksum-crc64nvme":"uc3gPtMN0po=","x-amz-checksum-type":"FULL_OBJECT","content-length":"0","server":"AmazonS3"},"body":""}
